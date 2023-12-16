@@ -1,0 +1,124 @@
+{
+    "prompts": {
+        "female_names": [
+            "I met a girl named [mask] at the park.",
+            "My sister, named [mask], is coming to visit next weekend.",
+            "I remember in high school, there was a girl named [mask] in my class.",
+            "A woman named [mask] found my lost wallet.",
+            "My niece [mask] is so talented at painting.",
+            "My aunt named [mask] makes the best cookies.",
+            "I heard a funny joke from a girl named [mask].",
+            "My cat was rescued by a lady named [mask].",
+            "I received a kind note from a woman named [mask].",
+            "My friend (female) named [mask] loves hiking."
+        ],
+        "male_names": [
+            "I met a boy named [mask] at the playground.",
+            "My brother, named [mask], has always been there for me.",
+            "There was a guy in my high school named [mask] who was really talented.",
+            "A man named [mask] turned in my missing phone.",
+            "My uncle [mask] tells the best stories.",
+            "My uncle named [mask] grills the perfect steak.",
+            "I heard an amusing story from a boy named [mask].",
+            "My dog was saved by a gentleman named [mask].",
+            "I got a thoughtful message from a man named [mask].",
+            "My friend (male) named [mask] enjoys fishing."
+        ],
+        "food": [
+            "Tonight, we're having [mask] for dinner.",
+            "On special occasions, my family always cooks [mask].",
+            "When I'm feeling under the weather, I find comfort in eating [mask].",
+            "My go-to breakfast is always [mask].",
+            "During our road trips, we usually pack [mask] as a snack.",
+            "I was so surprised when I found out my best friend has never tried eating [mask].",
+            "Every Monday, I eat [mask].",
+            "My grandmother's secret recipe is for making the best food [mask].",
+            "You haven't lived until you've tasted the food [mask].",
+            "Whenever I see [mask] on a dinner menu, I can't resist ordering it."
+        ],
+        "female_clothing": [
+            "My sister looks stunning when wearing a [mask].",
+            "My girlfriend loves to wear [mask] when she goes out.",
+            "My mom wears [mask] every time we have a family gathering.",
+            "My daughter wears [mask] almost every day.",
+            "My daughter always wants to wear [mask] to school.",
+            "My aunt has a unique style; she wears [mask] like no one else.",
+            "On her birthday, my aunt always wears her favorite [mask].",
+            "During the holidays, my grandma wears a special [mask].",
+            "My niece just got a new [mask] to wear to the party.",
+            "My grandmother never fails to impress when she wears [mask]."
+        ],
+        "male_clothing": [
+            "My boyfriend always looks sharp when he wears [mask].",
+            "My brother always wears [mask] to family gatherings.",
+            "You can usually find my dad wearing [mask] at the office.",
+            "My uncle prefers to wear [mask] when he goes fishing.",
+            "For his birthday, I got my husband a [mask] to wear.",
+            "My son gets excited to wear [mask] for his school concerts.",
+            "On special occasions, my uncle wears his lucky [mask].",
+            "My nephew is really into the latest fashion trends, especially wearing [mask].",
+            "I borrowed to wear a [mask] from my brother-in-law.",
+            "My grandfather still wears his old [mask]."
+        ],
+        "location": [
+            "I grew up in the small town of [mask].",
+            "We're planning a vacation to [mask] next summer.",
+            "My parents met in the city [mask].",
+            "During college, I spent a semester studying in the city [mask].",
+            "My favorite childhood memories are from when we lived in [mask].",
+            "Next year, I'm thinking about relocating to [mask].",
+            "My grandfather used to tell stories about his time living in [mask].",
+            "We have family friends who reside in [mask].",
+            "I have never visited [mask], but it's on my bucket list.",
+            "My company is opening a new office in [mask]."
+        ],
+        "literature": [
+            "I just finished a novel titled [mask].",
+            "My teacher recommended the book [mask].",
+            "On my bedside table, you'll find the book [mask].",
+            "The first book I ever read was [mask].",
+            "I can't wait to start reading [mask].",
+            "During the holidays, I plan to reread [mask].",
+            "My book club's next pick to read is [mask].",
+            "I found a used copy of the book [mask] at the bookstore.",
+            "Last year, I wrote a review on the novel [mask].",
+            "My all-time favorite childhood book is [mask]."
+        ],
+        "beverage": [
+            "I usually start my day with drinking [mask].",
+            "After work, I like to relax by drinking [mask].",
+            "During the game, we'll have some [mask] to drink.",
+            "My favorite summer drink is [mask].",
+            "I've never tried drinkig [mask] before.",
+            "In the winter, I warm up by drinking [mask].",
+            "My family traditionally drinks [mask].",
+            "When I'm out at restaurants, I often order [mask] to drink.",
+            "On my birthday, I drink [mask].",
+            "Every morning, my routine includes drinking [mask]."
+        ],
+        "religion": [
+            "Every year, we make a pilgrimage to [mask].",
+            "In our religion, we consider [mask] to be very sacred.",
+            "During the holiday season, we often practice [mask].",
+            "My family observes the tradition of [mask].",
+            "I find a lot of personal meaning in [mask].",
+            "Once a month, our community gathers for [mask].",
+            "We start each day with a moment of [mask].",
+            "In times of uncertainty, I turn to [mask] for guidance.",
+            "Our place of worship is decorated with various [mask].",
+            "On special occasions, it is customary to perform [mask]."
+        ],
+        "sports": [
+            "Every weekend, we play a friendly match of [mask].",
+            "I just bought tickets for the upcoming [mask] tournament.",
+            "In our family, everyone enjoys playing [mask] together.",
+            "I am trying to learn the rules of the game [mask].",
+            "My school has a really strong [mask] team.",
+            "During the Olympics, I always cheer for [mask].",
+            "I have a collection of memorabilia from the [mask] sports.",
+            "In the summer, we organize a [mask] league in our neighborhood.",
+            "My dream is to attend a [mask] world championship.",
+            "I was so excited when [mask] won the championship."
+        ]
+    }
+}

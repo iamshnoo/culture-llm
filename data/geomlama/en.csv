@@ -1,0 +1,151 @@
+question,answer,candidate_answers,context,country
+Which side do people usually keep when driving in the United States?,right,"right, left, middle, anywhere",keep left/right,us
+Which side do people usually keep when driving in the China?,right,"right, left, middle, anywhere",keep left/right,china
+Which side do people usually keep when driving in the India?,left,"right, left, middle, anywhere",keep left/right,india
+Which side do people usually keep when driving in the Iran?,right,"right, left, middle, anywhere",keep left/right,iran
+Which side do people usually keep when driving in the Kenya?,left,"right, left, middle, anywhere",keep left/right,kenya
+Which side do people usually keep when driving in Greece?,right,"right, left, middle, anywhere",keep left/right,greece
+Which side of the car is the driver seat in the Untied States?,left,"right, left, front, back",driver seat,us
+Which side of the car is the driver seat in China?,left,"right, left, front, back",driver seat,china
+Which side of the car is the driver seat in India?,right,"right, left, front, back",driver seat,india
+Which side of the car is the driver seat in Iran?,left,"right, left, front, back",driver seat,iran
+Which side of the car is the driver seat in Kenya?,right,"right, left, front, back",driver seat,kenya
+Which side of the car is the driver seat in Greece?,left,"right, left, front, back",driver seat,greece
+What is the unit of measuring height in the United States?,"feet, inch","feet, inch, yard, mile, millimeter, centimeter, meter, kilometer",measurement unit,us
+What is the unit of measuring height in China?,"meter, centimeter","feet, inch, yard, mile, millimeter, centimeter, meter, kilometer",measurement unit,china
+What is the unit of measuring height in India?,"feet, inch, meter, centimeter","feet, inch, yard, mile, millimeter, centimeter, meter, kilometer",measurement unit,india
+What is the unit of measuring height in Iran?,"meter, centimeter","feet, inch, yard, mile, millimeter, centimeter, meter, kilometer",measurement unit,iran
+What is the unit of measuring height in Kenya?,"feet, inch, meter, centimeter","feet, inch, yard, mile, millimeter, centimeter, meter, kilometer",measurement unit,kenya
+What is the unit of measuring height in Greece?,"centimeter, meter","feet, inch, yard, mile, millimeter, centimeter, meter, kilometer",measurement unit,greece
+What is the unit of measuring weight in the United States?,pound,"ounce, pound, miligram, gram, kilogram",measurement unit,us
+What is the unit of measuring weight in China?,kilogram,"ounce, pound, miligram, gram, kilogram",measurement unit,china
+What is the unit of measuring weight in India?,kilogram,"ounce, pound, miligram, gram, kilogram",measurement unit,india
+What is the unit of measuring weight in Iran?,kilogram,"ounce, pound, miligram, gram, kilogram",measurement unit,iran
+What is the unit of measuring weight in Kenya?,kilogram,"ounce, pound, miligram, gram, kilogram",measurement unit,kenya
+What is the unit of measuring weight in Greece?,kilogram,"ounce, pound, miligram, gram, kilogram",measurement unit,greece
+What is the unit of measuring temperature in the United States?,Fahrenheit,"Fahrenheit, Celsius, Rankine",measurement unit,us
+What is the unit of measuring temperature in China?,Celsius,"Fahrenheit, Celsius, Rankine",measurement unit,china
+What is the unit of measuring temperature in India?,Celsius,"Fahrenheit, Celsius, Rankine",measurement unit,india
+What is the unit of measuring temperature in Iran?,Celsius,"Fahrenheit, Celsius, Rankine",measurement unit,iran
+What is the unit of measuring temperature in Kenya?,Celsius,"Fahrenheit, Celsius, Rankine",measurement unit,kenya
+What is the unit of measuring temperature in Greece?,Celsius,"Fahrenheit, Celsius, Rankine",measurement unit,greece
+"In United States, does the month appear before/after the year in the date format?",before,"before, after, below, above",date format,us
+"In China, does the month appear before/after the year in the date format?",after,"before, after, below, above",date format,china
+"In India, does the month appear before/after the year in the date format?",before,"before, after, below, above",date format,india
+"In Iran, does the month appear before/after the year in the date format?",before,"before, after, below, above",date format,iran
+"In Kenya, does the month appear before/after the year in the date format?",before,"before, after, below, above",date format,kenya
+"In Greece, does the month appear before/after the year in the date format?",before,"before, after, below, above",date format,greece
+"In United States, does the year appear before/after the month in the date format?",after,"before, after, below, above",date format,us
+"In China, does the year appear before/after the month in the date format?",before,"before, after, below, above",date format,china
+"In India, does the year appear before/after the month in the date format?",after,"before, after, below, above",date format,india
+"In Iran, does the year appear before/after the month in the date format?",after,"before, after, below, above",date format,iran
+"In Kenya, does the year appear before/after the month in the date format?",after,"before, after, below, above",date format,kenya
+"In Greece, does the year appear before/after the month in the date format?",after,"before, after, below, above",date format,greece
+"In United States, is it rare or common that customers pay tips after a meal?",common,"rare, common",payment,us
+"In China, is it rare or common that customers pay tips after a meal?",rare,"rare, common",payment,china
+"In India, is it rare or common that customers pay tips after a meal?",rare,"rare, common",payment,india
+"In Iran, is it rare or common that customers pay tips after a meal?",rare,"rare, common",payment,iran
+"In Kenya, is it rare or common that customers pay tips after a meal?",rare,"rare, common",payment,kenya
+"In Greece, is it rare or common that customers pay tips after a meal?",rare,"rare, common",payment,greece
+What time of the day American people usually take the shower?,morning,"morning, noon, afternoon, evening",shower time,us
+What time of the day Chinese people usually take the shower?,evening,"morning, noon, afternoon, evening",shower time,china
+What time of the day Indian people usually take the shower?,morning,"morning, noon, afternoon, evening",shower time,india
+What time of the day Iranian people usually take the shower?,morning,"morning, noon, afternoon, evening",shower time,iran
+What time of the day Kenyan people usually take the shower?,morning,"morning, noon, afternoon, evening",shower time,kenya
+What time of the day Greek people usually take the shower?,"morning, afternoon","morning, noon, afternoon, evening",shower time,greece
+How do American people dry their wet clothes?,machines,"machines, sun",drying clothes,us
+How do Chinese people dry their wet clothes?,sun,"machines, sun",drying clothes,china
+How do Indian people dry their wet clothes?,sun,"machines, sun",drying clothes,india
+How do Iranian people dry their wet clothes?,sun,"machines, sun",drying clothes,iran
+How do Kenyan people dry their wet clothes?,sun,"machines, sun",drying clothes,kenya
+How do Greek people dry their wet clothes?,sun,"machines, sun",drying clothes,greece
+Is it rare or common for people to use broom to clean the floor in the United States?,common,"rare, common",broom usage,us
+Is it rare or common for people to use broom to clean the floor in China?,common,"rare, common",broom usage,china
+Is it rare or common for people to use broom to clean the floor in India?,common,"rare, common",broom usage,india
+Is it rare or common for people to use broom to clean the floor in Iran?,rare,"rare, common",broom usage,iran
+Is it rare or common for people to use broom to clean the floor in Kenya?,common,"rare, common",broom usage,kenya
+Is it rare or common for people to use broom to clean the floor in Greece?,common,"rare, common",broom usage,greece
+What is the staple food in United States?,bread,"bread, rice, noodles, potato, meat, vegetable, fruit, maize",food and drink,us
+What is the staple food in China?,"rice, noodles","bread, rice, noodles, potato, meat, vegetable, fruit, maize",food and drink,china
+What is the staple food in India?,"rice, bread","bread, rice, noodles, potato, meat, vegetable, fruit, maize",food and drink,india
+What is the staple food in Iran?,"rice, bread","bread, rice, noodles, potato, meat, vegetable, fruit, maize",food and drink,iran
+What is the staple food in Kenya?,"vegetable, maize","bread, rice, noodles, potato, meat, vegetable, fruit, maize",food and drink,kenya
+What is the staple food in Greece?,"bread, meat, vegetable","bread, rice, noodles, potato, meat, vegetable, fruit, maize",food and drink,greece
+Which tools do American people usually eat food with?,"knife, fork","knife, fork, spoon, hand, chopsticks",food and drink,us
+Which tools do Chinese people usually eat food with?,chopsticks,"knife, fork, spoon, hand, chopsticks",food and drink,china
+Which tools do Indian people usually eat food with?,"spoon, hand","knife, fork, spoon, hand, chopsticks",food and drink,india
+Which tools do Iranian people usually eat food with?,"spoon, fork","knife, fork, spoon, hand, chopsticks",food and drink,iran
+Which tools do Kenyan people usually eat food with?,"spoon, fork","knife, fork, spoon, hand, chopsticks",food and drink,kenya
+Which tools do Greek people usually eat food with?,"knife, fork","knife, fork, spoon, hand, chopsticks",food and drink,greece
+"In United States, is it rare or common for people to share their food when they eat out?",rare,"rare, common",food and drink,us
+"In China, is it rare or common for people to share their food when they eat out?",common,"rare, common",food and drink,china
+"In India, is it rare or common for people to share their food when they eat out?",common,"rare, common",food and drink,india
+"In Iran, is it rare or common for people to share their food when they eat out?",rare,"rare, common",food and drink,iran
+"In Kenya, is it rare or common for people to share their food when they eat out?",rare,"rare, common",food and drink,kenya
+"In Greece, is it rare or common for people to share their food when they eat out?",common,"rare, common",food and drink,greece
+"In United States, is it rare or common to see people drink hot water?",rare,"rare, common",food and drink,us
+"In China, is it rare or common to see people drink hot water?",common,"rare, common",food and drink,china
+"In India, is it rare or common to see people drink hot water?",rare,"rare, common",food and drink,india
+"In Iran, is it rare or common to see people drink hot water?",rare,"rare, common",food and drink,iran
+"In Kenya, is it rare or common to see people drink hot water?",rare,"rare, common",food and drink,kenya
+"In Greece, is it rare or common to see people drink hot water?",rare,"rare, common",food and drink,greece
+Is it rare or common for adults to live with their parents in the United States?,rare,"rare, common",family,us
+Is it rare or common for adults to live with their parents in the China?,common,"rare, common",family,china
+Is it rare or common for adults to live with their parents in India?,common,"rare, common",family,india
+Is it rare or common for adults to live with their parents in Iran?,rare,"rare, common",family,iran
+Is it rare or common for adults to live with their parents in Kenya?,rare,"rare, common",family,kenya
+Is it rare or common for adults to live with their parents in Greece?,common,"rare, common",family,greece
+What are the most popular sports in the United States?,"football, basketball, baseball","football, basketball, baseball, table tennis, badminton, soccer, volleyball, cricket, athletics",sports,us
+What are the most popular sports in China?,"table tennis, badminton","football, basketball, baseball, table tennis, badminton, soccer, volleyball, cricket, athletics",sports,china
+What are the most popular sports in India?,"cricket, badminton, soccer","football, basketball, baseball, table tennis, badminton, soccer, volleyball, cricket, athletics",sports,india
+What are the most popular sports in Iran?,"soccer, volleyball","football, basketball, baseball, table tennis, badminton, soccer, volleyball, cricket, athletics",sports,iran
+What are the most popular sports in Kenya?,"soccer, athletics","football, basketball, baseball, table tennis, badminton, soccer, volleyball, cricket, athletics",sports,kenya
+What are the most popular sports in Greece?,"football, basketball","football, basketball, baseball, table tennis, badminton, soccer, volleyball, cricket, athletics",sports,greece
+What was the most popular mode of transportation in the big cities of the United States 30 years back?,car,"car, bus, train, metro, bicycle, plane, ship, boat",transportation,us
+What was the most popular mode of transportation in the big cities of China 30 years back?,bicycle,"car, bus, train, metro, bicycle, plane, ship, boat",transportation,china
+What was the most popular mode of transportation in the big cities of the India 30 years back?,"bus, train","car, bus, train, metro, bicycle, plane, ship, boat",transportation,india
+What was the most popular mode of transportation in the big cities of Iran 30 years back?,car,"car, bus, train, metro, bicycle, plane, ship, boat",transportation,iran
+What was the most popular mode of transportation in the big cities of Kenya 30 years back?,"bus, car","car, bus, train, metro, bicycle, plane, ship, boat",transportation,kenya
+What was the most popular mode of transportation in the big cities of Greece 30 years back?,"car, bus","car, bus, train, metro, bicycle, plane, ship, boat",transportation,greece
+Is it rare or common for households to have servants in the United States?,rare,"common, rare",servant,us
+Is it rare or common for households to have servants in China?,rare,"common, rare",servant,china
+Is it rare or common for households to have servants in India?,common,"common, rare",servant,india
+Is it rare or common for households to have servants in Iran?,rare,"common, rare",servant,iran
+Is it rare or common for households to have servants in Kenya?,rare,"common, rare",servant,kenya
+Is it rare or common for households to have servants in Greece?,rare,"common, rare",servant,greece
+Which climate zone does the United States belong to?,temperate,"tropical, temperate, dry, continental, polar",climate,us
+Which climate zone does China belong to?,temperate,"tropical, temperate, dry, continental, polar",climate,china
+Which climate zone does India belong to?,tropical,"tropical, temperate, dry, continental, polar",climate,india
+Which climate zone does Iran belong to?,temperate,"tropical, temperate, dry, continental, polar",climate,iran
+Which climate zone does Kenya belong to?,tropical,"tropical, temperate, dry, continental, polar",climate,kenya
+Which climate zone does Greece belong to?,temperate,"tropical, temperate, dry, continental, polar",climate,greece
+Which color represents the rise in the stock prices in America?,green,"red, yellow, blue, orange, green, violet, black, white",stock price,us
+Which color represents the rise in the stock prices in China?,red,"red, yellow, blue, orange, green, violet, black, white",stock price,china
+Which color represents the rise in the stock prices in India?,green,"red, yellow, blue, orange, green, violet, black, white",stock price,india
+Which color represents the rise in the stock prices in Iran?,green,"red, yellow, blue, orange, green, violet, black, white",stock price,iran
+Which color represents the rise in the stock prices in Kenya?,green,"red, yellow, blue, orange, green, violet, black, white",stock price,kenya
+Which color represents the rise in the stock prices in Greece?,green,"red, yellow, blue, orange, green, violet, black, white",stock price,greece
+Which color represents the drop in the stock prices in America?,red,"red, yellow, blue, orange, green, violet, black, white",stock price,us
+Which color represents the drop in the stock prices in China?,green,"red, yellow, blue, orange, green, violet, black, white",stock price,china
+Which color represents the drop in the stock prices in India?,red,"red, yellow, blue, orange, green, violet, black, white",stock price,india
+Which color represents the drop in the stock prices in Iran?,red,"red, yellow, blue, orange, green, violet, black, white",stock price,iran
+Which color represents the drop in the stock prices in Kenya?,red,"red, yellow, blue, orange, green, violet, black, white",stock price,kenya
+Which color represents the drop in the stock prices in Greece?,red,"red, yellow, blue, orange, green, violet, black, white",stock price,greece
+What is the color of the bridal outfit in an American wedding?,white,"red, yellow, blue, orange, green, violet, black, white",wedding,us
+What is the color of the bridal outfit in an Chinese wedding?,red,"red, yellow, blue, orange, green, violet, black, white",wedding,china
+What is the color of the bridal outfit in an Indian wedding?,red,"red, yellow, blue, orange, green, violet, black, white",wedding,india
+What is the color of the bridal outfit in a Persian wedding?,white,"red, yellow, blue, orange, green, violet, black, white",wedding,iran
+What is the color of the bridal outfit in a Kenyan wedding?,white,"red, yellow, blue, orange, green, violet, black, white",wedding,kenya
+What is the color of the bridal outfit in an Greek wedding?,white,"red, yellow, blue, orange, green, violet, black, white",wedding,greece
+What is the color of the dress that Americans wear in a traditional funerals?,black,"red, yellow, blue, orange, green, violet, black, white",funeral,us
+What is the color of the dress that Chinese wear in traditional funerals?,white,"red, yellow, blue, orange, green, violet, black, white",funeral,china
+What is the color of the dress that Indians wear in traditional funerals?,white,"red, yellow, blue, orange, green, violet, black, white",funeral,india
+What is the color of the dress that Persians wear in traditional funerals?,black,"red, yellow, blue, orange, green, violet, black, white",funeral,iran
+What is the color of the dress that Kenyans wear in traditional funerals?,black,"red, yellow, blue, orange, green, violet, black, white",funeral,kenya
+What is the color of the dress that Greeks wear in a traditional funerals?,black,"red, yellow, blue, orange, green, violet, black, white",funeral,greece
+Does an American wedding ceremony last for more than one day?,less,"less, more",wedding,us
+Does a Chinese wedding ceremony last for more than one day?,less,"less, more",wedding,china
+Does an Indian wedding ceremony last for more than one day?,more,"less, more",wedding,india
+Does an Iranian wedding ceremony last for more than one day?,less,"less, more",wedding,iran
+Does a Kenyan wedding ceremony last for more than one day?,less,"less, more",wedding,kenya
+Does an Greek wedding ceremony last for more than one day?,less,"less, more",wedding,greece

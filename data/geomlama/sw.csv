@@ -1,0 +1,151 @@
+question,answer,candidate_answers,context,country
+Watu hukaa upande gani wanapoendesha gari nchini Marekani?,kulia,"kulia, kushoto, katikati, popote",keep left/right,us
+Watu hukaa upande gani wanapoendesha gari nchini China?,kulia,"kulia, kushoto, katikati, popote",keep left/right,china
+Watu hukaa upande gani wanapoendesha gari nchini India?,kushoto,"kulia, kushoto, katikati, popote",keep left/right,india
+Watu hukaa upande gani wanapoendesha gari nchini Uajemi?,kulia,"kulia, kushoto, katikati, popote",keep left/right,iran
+Watu hukaa upande gani wanapoendesha gari nchini Kenya?,kushoto,"kulia, kushoto, katikati, popote",keep left/right,kenya
+Watu hukaa upande gani wanapoendesha gari nchini Marekani?,kulia,"kulia, kushoto, katikati, popote",keep left/right,greece
+Kiti cha dereva huwa upande gani wa gari nchini Marekani?,kushoto,"kulia, kushoto, mbele, nyuma",driver seat,us
+Kiti cha dereva huwa upande gani wa gari nchini China?,kushoto,"kulia, kushoto, mbele, nyuma",driver seat,china
+Kiti cha dereva huwa upande gani wa gari nchini India?,kulia,"kulia, kushoto, mbele, nyuma",driver seat,india
+Kiti cha dereva huwa upande gani wa gari nchini Uajemi?,kushoto,"kulia, kushoto, mbele, nyuma",driver seat,iran
+Kiti cha dereva huwa upande gani wa gari nchini Kenya?,kulia,"kulia, kushoto, mbele, nyuma",driver seat,kenya
+Kiti cha dereva huwa upande gani wa gari nchini Marekani?,kushoto,"kulia, kushoto, mbele, nyuma",driver seat,greece
+Kitengo kipi hutumika kupima urefu nchini Marekani?,"fiti, inchi","fiti, inchi, yadi, maili, milimita, sentimita, mita, kilomita",measurement unit,us
+Kitengo kipi hutumika kupima urefu nchini China?,"mita, sentimita","fiti, inchi, yadi, maili, milimita, sentimita, mita, kilomita",measurement unit,china
+Kitengo kipi hutumika kupima urefu nchini India?,"fiti, inchi, mita, sentimita","fiti, inchi, yadi, maili, milimita, sentimita, mita, kilomita",measurement unit,india
+Kitengo kipi hutumika kupima urefu nchini Uajemi?,"mita, sentimita","fiti, inchi, yadi, maili, milimita, sentimita, mita, kilomita",measurement unit,iran
+Kitengo kipi hutumika kupima urefu nchini Kenya?,"fiti, inchi, mita, sentimita","fiti, inchi, yadi, maili, milimita, sentimita, mita, kilomita",measurement unit,kenya
+Kitengo kipi hutumika kupima urefu nchini Marekani?,"sentimita, mita","fiti, inchi, yadi, maili, milimita, sentimita, mita, kilomita",measurement unit,greece
+Kitengo kipi hupima uzito nchini Marekani?,pauni,"wanzi, pauni, miligramuuu, gramu, kilogramu",measurement unit,us
+Kitengo kipi hupima uzito nchini China?,kilogramu,"wanzi, pauni, miligramuuu, gramu, kilogramu",measurement unit,china
+Kitengo kipi hupima uzito nchini India?,kilogramu,"wanzi, pauni, miligramuuu, gramu, kilogramu",measurement unit,india
+Kitengo kipi hupima uzito nchini Uajemi?,kilogramu,"wanzi, pauni, miligramuuu, gramu, kilogramu",measurement unit,iran
+Kitengo kipi hupima uzito nchini Kenya?,kilogramu,"wanzi, pauni, miligramuuu, gramu, kilogramu",measurement unit,kenya
+Kitengo kipi hupima uzito nchini Marekani?,kilogramu,"wanzi, pauni, miligramuuu, gramu, kilogramu",measurement unit,greece
+Kitengo kipi hutumika kupima joto nchini Marekani?,Fahrenheit,"Fahrenheit, Celsius, Rankine",measurement unit,us
+Kitengo kipi hutumika kupima joto nchini China?,Celsius,"Fahrenheit, Celsius, Rankine",measurement unit,china
+Kitengo kipi hutumika kupima joto nchini India?,Celsius,"Fahrenheit, Celsius, Rankine",measurement unit,india
+Kitengo kipi hutumika kupima joto nchini Uajemi?,Celsius,"Fahrenheit, Celsius, Rankine",measurement unit,iran
+Kitengo kipi hutumika kupima joto nchini Kenya?,Celsius,"Fahrenheit, Celsius, Rankine",measurement unit,kenya
+Kitengo kipi hutumika kupima joto nchini Marekani?,Celsius,"Fahrenheit, Celsius, Rankine",measurement unit,greece
+"Nchini marekani, Mwezi huja kabla ama baada ya Mwaka kwenye muundo wa tarehe?",kabla,"kabla, baada, chini, juu",date format,us
+"Nchini China, Mwezi huja kabla ama baada ya Mwaka kwenye muundo wa tarehe?",baada,"kabla, baada, chini, juu",date format,china
+"Nchini India, Mwezi huja kabla ama baada ya Mwaka kwenye muundo wa tarehe?",kabla,"kabla, baada, chini, juu",date format,india
+"Nchini Uajemi, Mwezi huja kabla ama baada ya Mwaka kwenye muundo wa tarehe?",kabla,"kabla, baada, chini, juu",date format,iran
+"Nchini Kenya, Mwezi huja kabla ama baada ya Mwaka kwenye muundo wa tarehe?",kabla,"kabla, baada, chini, juu",date format,kenya
+"Nchini marekani, Mwezi huja kabla ama baada ya Mwaka kwenye muundo wa tarehe?",kabla,"kabla, baada, chini, juu",date format,greece
+"Nchini marekani, Mwaka huja kabla ama baada ya Mwezi kwenye muundo wa tarehe?",baada,"kabla, baada, chini, juu",date format,us
+"Nchini China, Mwaka huja kabla ama baada ya Mwezi kwenye muundo wa tarehe?",kabla,"kabla, baada, chini, juu",date format,china
+"Nchini India, Mwaka huja kabla ama baada ya Mwezi kwenye muundo wa tarehe?",baada,"kabla, baada, chini, juu",date format,india
+"Nchini Uajemi, Mwaka huja kabla ama baada ya Mwezi kwenye muundo wa tarehe?",baada,"kabla, baada, chini, juu",date format,iran
+"Nchini Kenya, Mwaka huja kabla ama baada ya Mwezi kwenye muundo wa tarehe?",baada,"kabla, baada, chini, juu",date format,kenya
+"Nchini marekani, Mwaka huja kabla ama baada ya Mwezi kwenye muundo wa tarehe?",baada,"kabla, baada, chini, juu",date format,greece
+"Nchini Marekani, ni kawaida au nadra kwa wateja kutoa bakshishi baada ya maankuli?",kawaida,"nadra, kawaida",payment,us
+"Nchini China, ni kawaida au nadra kwa wateja kutoa bakshishi baada ya maankuli?",nadra,"nadra, kawaida",payment,china
+"Nchini India, ni kawaida au nadra kwa wateja kutoa bakshishi baada ya maankuli?",nadra,"nadra, kawaida",payment,india
+"Nchini Uajemi, ni kawaida au nadra kwa wateja kutoa bakshishi baada ya maankuli?",nadra,"nadra, kawaida",payment,iran
+"Nchini Kenya, ni kawaida au nadra kwa wateja kutoa bakshishi baada ya maankuli?",nadra,"nadra, kawaida",payment,kenya
+"Nchini Marekani, ni kawaida au nadra kwa wateja kutoa bakshishi baada ya maankuli?",nadra,"nadra, kawaida",payment,greece
+Ni wakati gani wa siku ambapo wamarekani kwa kawaida huoga?,asubuhi,"asubuhi, adhuhuri, mchana, jioni",shower time,us
+Ni wakati gani wa siku ambapo Wachina kwa kawaida huoga?,jioni,"asubuhi, adhuhuri, mchana, jioni",shower time,china
+Ni wakati gani wa siku ambapo Wahindi kwa kawaida huoga?,asubuhi,"asubuhi, adhuhuri, mchana, jioni",shower time,india
+Ni wakati gani wa siku ambapo Waajemi kwa kawaida huoga?,asubuhi,"asubuhi, adhuhuri, mchana, jioni",shower time,iran
+Ni wakati gani wa siku ambapo wakenya kwa kawaida huoga?,asubuhi,"asubuhi, adhuhuri, mchana, jioni",shower time,kenya
+Ni wakati gani wa siku ambapo wamarekani kwa kawaida huoga?,"asubuhi, mchana","asubuhi, adhuhuri, mchana, jioni",shower time,greece
+Wamarekani hukausha nguo zao kutumia nini?,mashine,"mashine, jua",drying clothes,us
+Wachina hukausha nguo zao kutumia nini?,jua,"mashine, jua",drying clothes,china
+Wahindi hukausha nguo zao kutumia nini?,jua,"mashine, jua",drying clothes,india
+Waajemi hukausha nguo zao kutumia nini?,jua,"mashine, jua",drying clothes,iran
+Wakenya hukausha nguo zao kutumia nini?,jua,"mashine, jua",drying clothes,kenya
+Wamarekani hukausha nguo zao kutumia nini?,jua,"mashine, jua",drying clothes,greece
+Ni nadra au kawaida kwa watu kutumia ufagio kusafisha sakafu nchini Marekani?,kawaida,"nadra, kawaida",broom usage,us
+Ni nadra au kawaida kwa watu kutumia ufagio kusafisha sakafu nchini China?,kawaida,"nadra, kawaida",broom usage,china
+Ni nadra au kawaida kwa watu kutumia ufagio kusafisha sakafu nchini India?,kawaida,"nadra, kawaida",broom usage,india
+Ni nadra au kawaida kwa watu kutumia ufagio kusafisha sakafu nchini Uajemi?,nadra,"nadra, kawaida",broom usage,iran
+Ni nadra au kawaida kwa watu kutumia ufagio kusafisha sakafu nchini Kenya?,kawaida,"nadra, kawaida",broom usage,kenya
+Ni nadra au kawaida kwa watu kutumia ufagio kusafisha sakafu nchini Marekani?,kawaida,"nadra, kawaida",broom usage,greece
+Chakula kikuu nchini Marekani ni kipi?,mkate,"mkate, wali, tambi, viazi, nyama, mboga, tunda, mahindi",food and drink,us
+Chakula kikuu nchini China ni kipi?,"wali, tambi","mkate, wali, tambi, viazi, nyama, mboga, tunda, mahindi",food and drink,china
+Chakula kikuu nchini India ni kipi?,"wali, mkate","mkate, wali, tambi, viazi, nyama, mboga, tunda, mahindi",food and drink,india
+Chakula kikuu nchini Uajemi ni kipi?,"wali, mkate","mkate, wali, tambi, viazi, nyama, mboga, tunda, mahindi",food and drink,iran
+Chakula kikuu nchini Kenya ni kipi?,"mboga, mahindi","mkate, wali, tambi, viazi, nyama, mboga, tunda, mahindi",food and drink,kenya
+Chakula kikuu nchini Marekani ni kipi?,"mkate, nyama, mboga","mkate, wali, tambi, viazi, nyama, mboga, tunda, mahindi",food and drink,greece
+Wamarekani hutumia vyombo zipi kulia vyakula?,"kisu, uma","kisu, uma, kijiko, mkono, vijiti",food and drink,us
+Wachina hutumia vyombo zipi kulia vyakula?,vijiti,"kisu, uma, kijiko, mkono, vijiti",food and drink,china
+Wahindi hutumia vyombo zipi kulia vyakula?,"kijiko, mkono","kisu, uma, kijiko, mkono, vijiti",food and drink,india
+Waajemi hutumia vyombo zipi kulia vyakula?,"kijiko, uma","kisu, uma, kijiko, mkono, vijiti",food and drink,iran
+Wakenya hutumia vyombo zipi kulia vyakula?,"kijiko, uma","kisu, uma, kijiko, mkono, vijiti",food and drink,kenya
+Wamarekani hutumia vyombo zipi kulia vyakula?,"kisu, uma","kisu, uma, kijiko, mkono, vijiti",food and drink,greece
+Je ni nadra au kawaida kwa watu kugawana vyakula wanapokula nje nchini Marekani?,nadra,"nadra, kawaida",food and drink,us
+Je ni nadra au kawaida kwa watu kugawana vyakula wanapokula nje nchini China?,kawaida,"nadra, kawaida",food and drink,china
+Je ni nadra au kawaida kwa watu kugawana vyakula wanapokula nje nchini India?,kawaida,"nadra, kawaida",food and drink,india
+Je ni nadra au kawaida kwa watu kugawana vyakula wanapokula nje nchini Uajemi?,nadra,"nadra, kawaida",food and drink,iran
+Je ni nadra au kawaida kwa watu kugawana vyakula wanapokula nje nchini Kenya?,nadra,"nadra, kawaida",food and drink,kenya
+Je ni nadra au kawaida kwa watu kugawana vyakula wanapokula nje nchini Marekani?,kawaida,"nadra, kawaida",food and drink,greece
+"Nchini Marekani, ni nadra au kawaida kuwaona watu wakinywa maji moto?",nadra,"nadra, kawaida",food and drink,us
+"Nchini China, ni nadra au kawaida kuwaona watu wakinywa maji moto?",kawaida,"nadra, kawaida",food and drink,china
+"Nchini India, ni nadra au kawaida kuwaona watu wakinywa maji moto?",nadra,"nadra, kawaida",food and drink,india
+"Nchini Uajemi, ni nadra au kawaida kuwaona watu wakinywa maji moto?",nadra,"nadra, kawaida",food and drink,iran
+"Nchini Kenya, ni nadra au kawaida kuwaona watu wakinywa maji moto?",nadra,"nadra, kawaida",food and drink,kenya
+"Nchini Marekani, ni nadra au kawaida kuwaona watu wakinywa maji moto?",nadra,"nadra, kawaida",food and drink,greece
+"Je, ni nadra au kawaida kwa watu wazima kuishi na wazazi wao nchini Marekani?",nadra,"nadra, kawaida",family,us
+"Je, ni nadra au kawaida kwa watu wazima kuishi na wazazi wao nchini China?",kawaida,"nadra, kawaida",family,china
+"Je, ni nadra au kawaida kwa watu wazima kuishi na wazazi wao nchini India?",kawaida,"nadra, kawaida",family,india
+"Je, ni nadra au kawaida kwa watu wazima kuishi na wazazi wao nchini Uajemi?",nadra,"nadra, kawaida",family,iran
+"Je, ni nadra au kawaida kwa watu wazima kuishi na wazazi wao nchini Kenya?",nadra,"nadra, kawaida",family,kenya
+"Je, ni nadra au kawaida kwa watu wazima kuishi na wazazi wao nchini Marekani?",kawaida,"nadra, kawaida",family,greece
+Ni michezo ipi maarufu nchini marekani?,"mpira wa miguu, mpira wa kikapu, besiboli","mpira wa miguu, mpira wa kikapu, besiboli, tenisi ya meza, mpira wa Vinyoya, soka, Voliboli, Kriketi, riadha",sports,us
+Ni michezo ipi maarufu nchini China?,"tenisi ya meza, mpira wa Vinyoya","mpira wa miguu, mpira wa kikapu, besiboli, tenisi ya meza, mpira wa Vinyoya, soka, Voliboli, Kriketi, riadha",sports,china
+Ni michezo ipi maarufu nchini India?,"Kriketi, mpira wa Vinyoya, soka","mpira wa miguu, mpira wa kikapu, besiboli, tenisi ya meza, mpira wa Vinyoya, soka, Voliboli, Kriketi, riadha",sports,india
+Ni michezo ipi maarufu nchini Uajemi?,"soka, Voliboli","mpira wa miguu, mpira wa kikapu, besiboli, tenisi ya meza, mpira wa Vinyoya, soka, Voliboli, Kriketi, riadha",sports,iran
+Ni michezo ipi maarufu nchini Kenya?,"soka, riadha","mpira wa miguu, mpira wa kikapu, besiboli, tenisi ya meza, mpira wa Vinyoya, soka, Voliboli, Kriketi, riadha",sports,kenya
+Ni michezo ipi maarufu nchini marekani?,"mpira wa miguu, mpira wa kikapu","mpira wa miguu, mpira wa kikapu, besiboli, tenisi ya meza, mpira wa Vinyoya, soka, Voliboli, Kriketi, riadha",sports,greece
+Ni zana zipi za kusafiri maarufu kwenye miji mikuu nchini Marekani?,gari,"gari, basi, gari ya moshi, metro, baiskeli, ndege, meli, mashua",transportation,us
+Ni zana zipi za kusafiri maarufu kwenye miji mikuu nchini Uchina?,baiskeli,"gari, basi, gari ya moshi, metro, baiskeli, ndege, meli, mashua",transportation,china
+Ni zana zipi za kusafiri maarufu kwenye miji mikuu nchini India?,"basi, gari ya moshi","gari, basi, gari ya moshi, metro, baiskeli, ndege, meli, mashua",transportation,india
+Ni zana zipi za kusafiri maarufu kwenye miji mikuu nchini Uajemi?,gari,"gari, basi, gari ya moshi, metro, baiskeli, ndege, meli, mashua",transportation,iran
+Ni zana zipi za kusafiri maarufu kwenye miji mikuu nchini Kenya?,"gari, basi","gari, basi, gari ya moshi, metro, baiskeli, ndege, meli, mashua",transportation,kenya
+Ni zana zipi za kusafiri maarufu kwenye miji mikuu nchini Marekani?,"gari, basi","gari, basi, gari ya moshi, metro, baiskeli, ndege, meli, mashua",transportation,greece
+Ni nadra au kawaida kuwa na wafanyikazi manyumbani nchini Marekani?,nadra,"kawaida, nadra",servant,us
+Ni nadra au kawaida kuwa na wafanyikazi manyumbani nchini China?,nadra,"kawaida, nadra",servant,china
+Ni nadra au kawaida kuwa na wafanyikazi manyumbani nchini India?,kawaida,"kawaida, nadra",servant,india
+Ni nadra au kawaida kuwa na wafanyikazi manyumbani nchini Uajemi?,nadra,"kawaida, nadra",servant,iran
+Ni nadra au kawaida kuwa na wafanyikazi manyumbani nchini Kenya?,nadra,"kawaida, nadra",servant,kenya
+Ni nadra au kawaida kuwa na wafanyikazi manyumbani nchini Marekani?,nadra,"kawaida, nadra",servant,greece
+Marekani ipo katika eneo gani la hali?,nusutropiki,"kitropiki, nusutropiki, ukavu, bara, polar",climate,us
+China ipo katika eneo gani la hali?,nusutropiki,"kitropiki, nusutropiki, ukavu, bara, polar",climate,china
+India ipo katika eneo gani la hali?,kitropiki,"kitropiki, nusutropiki, ukavu, bara, polar",climate,india
+Uajemi ipo katika eneo gani la hali?,nusutropiki,"kitropiki, nusutropiki, ukavu, bara, polar",climate,iran
+Kenya ipo katika eneo gani la hali?,kitropiki,"kitropiki, nusutropiki, ukavu, bara, polar",climate,kenya
+Marekani ipo katika eneo gani la hali?,nusutropiki,"kitropiki, nusutropiki, ukavu, bara, polar",climate,greece
+Rangi ipi inawakilisha kupanda kwa bei ya hisa nchini Marekani?,kijani,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,us
+Rangi ipi inawakilisha kupanda kwa bei ya hisa nchini China?,nyekundu,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,china
+Rangi ipi inawakilisha kupanda kwa bei ya hisa nchini India?,kijani,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,india
+Rangi ipi inawakilisha kupanda kwa bei ya hisa nchini Uajemi?,kijani,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,iran
+Rangi ipi inawakilisha kupanda kwa bei ya hisa nchini Kenya?,kijani,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,kenya
+Rangi ipi inawakilisha kupanda kwa bei ya hisa nchini Marekani?,kijani,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,greece
+Rangi ipi inawakilisha kushuka kwa bei ya hisa nchini Marekani?,nyekundu,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,us
+Rangi ipi inawakilisha kushuka kwa bei ya hisa nchini China?,kijani,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,china
+Rangi ipi inawakilisha kushuka kwa bei ya hisa nchini India?,nyekundu,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,india
+Rangi ipi inawakilisha kushuka kwa bei ya hisa nchini uajemi?,nyekundu,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,iran
+Rangi ipi inawakilisha kushuka kwa bei ya hisa nchini Kenya?,nyekundu,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,kenya
+Rangi ipi inawakilisha kushuka kwa bei ya hisa nchini Marekani?,nyekundu,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",stock price,greece
+Rangi ya mavazi ya bibi harusi huwa ipi katika ndoa ya Kimarekani?,nyeupe,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",wedding,us
+Rangi ya mavazi ya bibi harusi huwa ipi katika ndoa ya Kichina?,nyekundu,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",wedding,china
+Rangi ya mavazi ya bibi harusi huwa ipi katika ndoa ya Kihindi?,nyekundu,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",wedding,india
+Rangi ya mavazi ya bibi harusi huwa ipi katika ndoa ya Kiajemi?,nyeupe,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",wedding,iran
+Rangi ya mavazi ya bibi harusi huwa ipi katika ndoa ya Kikenya?,nyeupe,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",wedding,kenya
+Rangi ya mavazi ya bibi harusi huwa ipi katika ndoa ya Kimarekani?,nyeupe,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",wedding,greece
+Wamarekani huvaa mavazi ya rangi gani kwenye mazishi ya kitamaduni?,nyeusi,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",funeral,us
+Wachina huvaa mavazi ya rangi gani kwenye mazishi ya kitamaduni?,nyeupe,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",funeral,china
+Wahindi huvaa mavazi ya rangi gani kwenye mazishi ya kitamaduni?,nyeupe,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",funeral,india
+Waajemi huvaa mavazi ya rangi gani kwenye mazishi ya kitamaduni?,nyeusi,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",funeral,iran
+Wakenya huvaa mavazi ya rangi gani kwenye mazishi ya kitamaduni?,nyeusi,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",funeral,kenya
+Wamarekani huvaa mavazi ya rangi gani kwenye mazishi ya kitamaduni?,nyeusi,"nyekundu, manjano, samawati, rangi chungwa, kijani, urujuani, nyeusi, nyeupe",funeral,greece
+Je sherehe za harusi nchini Marekani huzidisha siku moja?,chili,"chili, zaidi",wedding,us
+Je sherehe za harusi nchini China huzidisha siku moja?,chili,"chili, zaidi",wedding,china
+Je sherehe za harusi nchini India huzidisha siku moja?,zaidi,"chili, zaidi",wedding,india
+Je sherehe za harusi nchini Uajemi huzidisha siku moja?,chili,"chili, zaidi",wedding,iran
+Je sherehe za harusi nchini Kenya huzidisha siku moja?,chili,"chili, zaidi",wedding,kenya
+Je sherehe za harusi nchini Marekani huzidisha siku moja?,chili,"chili, zaidi",wedding,greece

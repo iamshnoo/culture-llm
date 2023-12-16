@@ -1,0 +1,613 @@
+{
+    "Greece": {
+        "female_names": [
+            "Anastasia", "Alexandra", "Eleni", "Penelope", "Katerina",
+            "Georgia", "Sofia", "Despina", "Vasiliki", "Anna",
+            "Zoe", "Ioanna", "Foteini", "Eirini", "Olga",
+            "Dimitra", "Paraskevi", "Ekaterini", "Christina", "Eva",
+            "Angeliki", "Stella", "Irene", "Aikaterini", "Konstantina",
+            "Eleftheria", "Panagiota", "Kyriaki", "Athanasia", "Maria",
+            "Theodora", "Marina", "Antigone", "Athena", "Diana",
+            "Natalia", "Zoe", "Niki", "Elpida", "Evangelia",
+            "Argyro", "Helen", "Myrto", "Ariadne", "Persephone",
+            "Sappho", "Thalia", "Xanthe", "Gianna"
+        ],
+        "male_names": [
+            "Alexandros", "Nikos", "Yiannis", "Dimitris", "Georgios",
+            "Konstantinos", "Panagiotis", "Vasilis", "Christos", "Petros",
+            "Michalis", "Andreas", "Stavros", "Markos", "Kostas",
+            "Giorgos", "Manolis", "Apostolis", "Nikolaos", "Thanasis",
+            "Antonis", "Christoforos", "Dionysis", "Stratos", "Tasos",
+            "Panos", "Sotiris", "Spiros", "Lefteris", "Aris",
+            "Vangelis", "Ilias", "Yiorgos", "Harris", "Stefanos",
+            "Savvas", "Achilleas", "Filippos", "Leonidas", "Odysseas",
+            "Paris", "Alexis", "Angelos", "Manos",
+            "Takis", "Dimos", "Pavlos", "Thodoris", "Zacharias"
+        ],
+        "food": [
+            "choriatiki", "anginares alla Polita", "Arakas me aginares", "Briam",
+            "Tsouknidopita", "Yemista", "Brantada", "Giouvetsi", "Gyros", "Kotopoulo me ryzi",
+            "Kreatopita", "Kleftiko", "Kokkinisto", "Kolokythakia tiganita", "Kolokythokeftedes",
+            "Kotopoulo lemonato", "Kotopoulo me damaskina", "Kotopoulo me karydia", "Kotopoulo me spanaki", "Kotopoulo yiouvetsi",
+            "Kreatopita", "Kreatopita me prasa", "Kreatopita me spanaki", "Kreatopita tou Fournou", "Kremmydopita",
+            "Lachanodolmades", "Lahanodolmades", "Arni Kleftiko", "Souvlaki",
+            "Lavraki", "Loukaniko", "Magiritsa", "Makaronia me kima", "Melitzanes Imam",
+            "Moussaka", "Paidakia", "Pastitsio", "Patsas",
+            "Psari Plaki", "Revithia", "Saganaki",
+            "Soutzoukakia", "Spanakopita", "Stifado", "Taramosalata", "Tiganites", "Tirokafteri"
+        ],
+        "female_clothing": [
+            "Amalia Dress", "Sarafan", "Kamisa", "Foustanela", "Saya",
+            "Mavro", "Boubouniera", "Karagouna", "Sofor", "Katsoulia",
+            "Tsarouchia", "Sayies", "Kavadi", "Zipouni",
+            "Mantrakoukoulas", "Fermeli", "Doulamas",
+            "Peplos", "Chiton", "Himation", "Epiblema", "Chlamys",
+            "Exomis", "Doric Chiton", "Ionic Chiton", "Strophion", "Mitella",
+            "Zoste", "Kolpos", "Apotygma", "Chitoniskos", "Epichysis",
+            "Thalassio", "Esthete", "Skafion", "Kalymmaukion", "Podonis",
+            "Flokati", "Sakkos", "Tablion", "Vamvakies",
+            "Zonari", "Analavos", "Anteri", "Kontogouni"
+        ],
+        "male_clothing": [
+            "Fustanella", "Sariki", "Tsarouchia", "Zoumbas", "Vraka",
+            "Meidanion", "Fermeli", "Doulamas", "Sayia", "Kavadi",
+            "Kamisa", "Yileko", "Zonari", "Kontogouni",
+            "Kapsiki", "Poukamiso", "Kalogeriko", "Mavro Raso", "Katofili",
+            "Salvari", "Yelekaki", "Anteri", "Epimanikia", "Krossia",
+            "Makris", "Kremasti", "Kourelou", "Mesofori", "Kapa",
+            "Bournous", "Pirpiri", "Somato", "Brokates", "Katofion",
+            "Megalofermi", "Mikrofermi", "Dagko", "Sarka", "Kalpakia",
+            "Theristras", "Lampadion", "Krossi", "Ampechoni", "Analavos",
+            "Epigonation", "Phelonion", "Palitsa", "Evzone", "Potamos"
+        ],
+        "location": [
+            "Athens", "Thessaloniki", "Santorini", "Mykonos", "Crete",
+            "Rhodes", "Corfu", "Chania", "Heraklion", "Patras",
+            "Larissa", "Volos", "Ioannina", "Chalkidiki", "Piraeus",
+            "Nafplio", "Olympia", "Delphi", "Meteora", "Thessaly",
+            "Peloponnese", "Macedonia", "Epirus", "Cyclades", "Dodecanese",
+            "Aegean Islands", "Ionian Islands", "Zakynthos", "Kefalonia", "Lesbos",
+            "Samos", "Chios", "Kos", "Hydra", "Syros",
+            "Skiathos", "Skopelos", "Andros", "Tinos", "Milos",
+            "Naxos", "Paros", "Folegandros", "Sifnos", "Ikaria",
+            "Lefkada", "Thasos", "Sparta", "Kalamata", "Komotini"
+        ],
+        "literature": [
+            "The Iliad", "The Odyssey", "Works and Days", "Theogony", "Antigone",
+            "Oedipus Rex", "Medea", "Lysistrata", "The Republic", "Nicomachean Ethics",
+            "Poetics", "The Aeneid", "The Bacchae", "The Frogs", "The Clouds",
+            "Histories", "The Peloponnesian War", "Symposium", "Phaedo", "Timaeus",
+            "The History of the Peloponnesian War", "Argonautica", "Daphnis and Chloe", "Aesop's Fables", "The Golden Ass",
+            "The Trojan Women", "Alcestis", "Prometheus Bound", "The Birds", "The Knights",
+            "Electra", "Ajax", "The Persians", "Helen", "The Women of Trachis",
+            "Seven Against Thebes", "Oresteia", "Philoctetes", "The Trackers", "Rhesus",
+            "The Suppliants", "Heracles", "Thesmophoriazusae", "Assemblywomen", "Wealth",
+            "On the Heavens", "Metaphysics", "On the Soul", "Politics", "Zorba the Greek"
+        ],
+        "beverage": [
+            "Ouzo", "Tsipouro", "Retsina", "Masticha", "Metaxa",
+            "Frappé Coffee", "Greek Coffee", "Raki", "Soumada",
+            "Kitron", "Rakomelo", "Visinada", "Tuvana",
+            "Freddo Espresso", "Freddo Cappuccino", "Ellinikos Kafes", "Café Frappé",
+            "Greek Mountain Tea", "Chamomili",
+            "Tzitzibira", "Gazoza", "Ioli", "Loux", "EPSA",
+            "Ariani",
+            "Amstel", "Mythos", "Alfa", "Fix", "Vergina",
+            "Nissos"
+        ],
+        "religion": [
+            "Komboloi", "Kandili", "Prosphora", "Koliva", "Antidoron",
+            "Iconostasi", "Byzantine Icons", "Vigil Lamp", "Censer", "Chotki",
+            "Holy Water", "Blessing Cross", "Lambada", "Epitaphios", "Phylacteries",
+            "Chalice", "Diskos", "Lance", "Candle Stand",
+            "Easter Vigil", "Holy Week", "Epiphany", "Dormition of the Theotokos", "Christmas",
+            "Name Days", "Baptism", "Chrisma", "Confession", "Holy Communion",
+            "Marriage", "Ordination", "Monasticism",
+            "Proskomide", "Divine Liturgy", "Vespers", "Matins", "Akolouthia",
+            "Paraklesis", "Salutations", "Lamentations", "Panikhida", "Agape Vespers",
+            "Artoklasia", "Holy Fire", "Cross Procession", "Icon Veneration",
+            "Kyrie Eleison", "Prayer Rope", "Prostration", "Sign of the Cross"
+        ]
+    },
+    "India": {
+        "female_names": [
+            "Aisha", "Ananya", "Aarohi", "Aditi", "Aishwarya",
+            "Ankita", "Bhavna", "Chitra", "Deepika", "Disha",
+            "Ekta", "Fatima", "Gauri", "Harshita", "Isha",
+            "Jyoti", "Kavita", "Lavanya", "Meera", "Neha",
+            "Pooja", "Radhika", "Sanya", "Tara", "Usha",
+            "Vandana", "Yamini", "Zara", "Ashima", "Binita",
+            "Chandni", "Divya", "Ekisha", "Falguni", "Geetika",
+            "Himani", "Indira", "Juhi", "Komal", "Lalita",
+            "Madhavi", "Nalini", "Ojasvi", "Prisha", "Ritika",
+            "Sakshi", "Tanvi", "Umrao", "Vasudha", "Yashika"
+        ],
+        "male_names": [
+            "Aarav", "Arjun", "Aditya", "Ankit", "Akash",
+            "Amit", "Bharat", "Balaji", "Chetan", "Deepak",
+            "Dhruv", "Gaurav", "Harsh", "Ishan", "Jay",
+            "Karan", "Lalit", "Manish", "Nitin", "Omkar",
+            "Pranav", "Rahul", "Sachin", "Tarun", "Umesh",
+            "Vivek", "Yash", "Zayan", "Abhishek", "Arnav",
+            "Anirudh", "Bhavesh", "Darshan", "Eshan", "Farhan",
+            "Ganesh", "Hemant", "Inder", "Jeet", "Kunal",
+            "Mohit", "Naveen", "Prateek", "Rohan", "Siddharth",
+            "Tanmay", "Udit", "Vaibhav", "Wasim", "Yogesh"
+        ],
+        "food": [
+            "Biryani", "Dosa", "Butter Chicken", "Chole Bhature", "Pani Puri",
+            "Samosa", "Masala Dosa", "Aloo Paratha", "Rogan Josh", "Tandoori Chicken",
+            "Pav Bhaji", "Dhokla", "Idli", "Palak Paneer", "Chicken Tikka Masala",
+            "Gulab Jamun", "Rasgulla", "Jalebi", "Baingan Bharta", "Fish Curry",
+            "Rajma", "Kadhi Pakoda", "Mutton Biryani", "Vada Pav", "Pulao",
+            "Chana Masala", "Hakka Noodles", "Paneer Tikka", "Masoor Dal", "Aloo Gobi",
+            "Chicken Curry", "Lassi", "Bhindi Masala", "Raita", "Keema",
+            "Malai Kofta", "Dal Makhani", "Poha", "Uttapam", "Momos",
+            "Bhel Puri", "Sev Puri", "Kulfi", "Falooda", "Chicken Biryani",
+            "Matar Paneer", "Papri Chaat", "Dhahi Vada", "Gobi Manchurian", "Mughlai Chicken"
+        ],
+        "female_clothing": [
+            "Saree", "Salwar Kameez", "Lehenga Choli", "Anarkali Suit", "Palazzo Suit",
+            "Churidar", "Patiala Suit", "Kurti", "Sharara", "Ghagra",
+            "Blouse", "Dupatta", "Shrug", "Dhoti Pants", "Farshi Pajama",
+            "Garara", "Kameez", "Kaftan", "Choli", "Achkan",
+            "Angarkha", "Sherwani", "Gown", "Skirt", "Phulkari",
+            "Jacket", "Shawl", "Stole", "Petticoat", "Chaniya Choli",
+            "Odni", "Bandhani Saree", "Banarasi Saree", "Chanderi Saree", "Kanjeevaram Saree",
+            "Paithani Saree", "Patola Saree", "Sambalpuri Saree", "Tant Saree", "Bhagalpuri Saree",
+            "Madhubani Saree", "Chiffon Saree", "Georgette Saree", "Net Saree", "Silk Saree",
+            "Cotton Saree", "Linen Saree", "Jamdani Saree", "Baluchari Saree", "Ikat Saree"
+        ],
+        "male_clothing": [
+            "Sherwani", "Kurta", "Dhoti", "Lungi", "Pathani Suit",
+            "Achkan", "Bandhgala", "Jodhpuri Suit", "Angarkha", "Churidar",
+            "Pajama", "Nehru Jacket", "Blazer", "Safari Suit", "Koti",
+            "Pheta", "Pagri", "Safa", "Angrakha", "Kurta Pajama",
+            "Dumala", "Jama", "Patiala Salwar", "Dastaar", "Kufi",
+            "Mundu", "Panche", "Laacha", "Khes", "Kamarband",
+            "Mojari", "Kolhapuri Chappal", "Jutti", "Chappal", "Sherwani Shoes",
+            "Dupatta", "Stole", "Shawl", "Muffler", "Dhoti Salwar",
+            "Patka", "Turban", "Angavastram", "Fouta", "Jhabla",
+            "Ghagra", "Kishtee", "Tantuvardhaka", "Tangail Saree", "Chikan Kurta",
+            "Modi Jacket", "Bundi", "Khan Dress", "Lacha", "Mirzai"
+        ],
+        "location": [
+            "Mumbai", "Delhi", "Bangalore", "Kolkata", "Chennai",
+            "Hyderabad", "Pune", "Jaipur", "Lucknow", "Kanpur",
+            "Nagpur", "Indore", "Thane", "Bhopal", "Visakhapatnam",
+            "Vadodara", "Firozabad", "Ludhiana", "Rajkot", "Agra",
+            "Siliguri", "Nashik", "Faridabad", "Patiala", "Meerut",
+            "Kalyan-Dombivali", "Vasai-Virar", "Varanasi", "Srinagar", "Dibrugarh",
+            "Jodhpur", "Amritsar", "Raipur", "Allahabad", "Coimbatore",
+            "Jabalpur", "Gwalior", "Vijayawada", "Madurai", "Guwahati",
+            "Chandigarh", "Hubli-Dharwad", "Amroha", "Moradabad", "Gurgaon",
+            "Aligarh", "Solapur", "Ranchi", "Jalandhar", "Tiruchirappalli",
+            "Bhubaneswar", "Salem", "Mysore", "Tiruppur", "Aurangabad"
+        ],
+        "literature": [
+            "Mahabharata", "Ramayana", "Bhagavad Gita", "Rigveda", "Upanishads",
+            "Panchatantra", "Arthashastra", "Ashtadhyayi", "Kamasutra", "Jataka Tales",
+            "Manimekalai", "Silappadikaram", "Tirukkural", "Gitanjali", "Mrichchhakatika",
+            "Malavikagnimitram", "Abhijnanasakuntalam", "Meghaduta", "Raghuvamsa", "Kumarasambhava",
+            "Ain-i-Akbari", "Rajatarangini", "Hitopadesha", "Yoga Vasistha", "Thiruvasagam",
+            "Manu Smriti", "Yajurveda", "Atharvaveda", "Sama Veda", "Dnyaneshwari",
+            "Dasbodh", "Eknathi Bhagwat", "Tukaram Gatha", "Raja Harishchandra", "Godan",
+            "Nirmala", "Gabana", "God's Mischief", "Discovery of India", "My Experiments with Truth",
+            "The Guide", "Train to Pakistan", "A Passage to India", "The Namesake", "Midnight's Children",
+            "The Shadow Lines", "The God of Small Things", "The White Tiger", "The Inheritance of Loss", "A Suitable Boy"
+        ],
+        "beverage": [
+            "Chai", "Masala Chai", "Lassi", "Buttermilk", "Aam Panna",
+            "Jaljeera", "Sugarcane Juice", "Lemonade", "Coconut Water", "Rose Milk",
+            "Badam Milk", "Kesar Badam Milk", "Thandai", "Rooh Afza", "Rasam",
+            "Solkadhi", "Feni", "Toddy", "Ragi Malt", "Sattu",
+            "Kokum Sharbat", "Phalsa Sherbet", "Bel Ka Sharbat", "Kulukki Sarbath", "Nannari Sharbat",
+            "Panakam", "Kombucha", "Masala Soda", "Goli Soda", "Kahwa",
+            "Butter Tea", "Irani Tea", "Sulaimani Tea", "Assam Tea", "Darjeeling Tea",
+            "Filter Coffee", "South Indian Coffee", "Madras Coffee", "Cold Coffee", "Cafe au Lait",
+            "Espresso", "Cappuccino", "Frappe", "Lemon Tea", "Green Tea",
+            "Black Tea", "Cardamom Tea", "Ginger Tea", "Tulsi Tea", "Peppermint Tea"
+        ],
+        "religion": [
+            "Puja", "Aarti", "Havan", "Prasad", "Meditation",
+            "Yoga", "Fasting", "Chanting", "Pilgrimage", "Bhajan",
+            "Kirtan", "Rath Yatra", "Dharna", "Satsang", "Vrat",
+            "Namaz", "Roza", "Hajj", "Zakat", "Namakarana",
+            "Mundan", "Janeu", "Vivaha", "Antyesti", "Shraadh",
+            "Durga Puja", "Diwali", "Holi", "Raksha Bandhan", "Eid-ul-Fitr",
+            "Christmas", "Good Friday", "Baisakhi", "Pongal", "Onam",
+            "Navratri", "Maha Shivaratri", "Janmashtami", "Ganesh Chaturthi", "Rama Navami",
+            "Karva Chauth", "Buddha Purnima", "Mahavir Jayanti", "Gurpurab", "Makar Sankranti",
+            "Chhath Puja", "Lohri", "Maghi", "Teej", "Cheti Chand",
+            "Paryushana", "Thaipusam", "Lent", "Easter", "Hanukkah"
+        ]
+    },
+    "China": {
+        "female_names": [
+            "Li Hua", "Wang Fang", "Zhang Ying", "Li Ying", "Jingyi",
+            "Chen Jie", "Huimin", "Wang Yan", "Liu Yang", "Zhang Li",
+            "Li Na", "Zhou Jie", "Li Qian", "Wang Li", "Chen Ying",
+            "Yating", "Li Yan", "Wang Qian", "Zhang Jing", "Li Xiu",
+            "Chen Li", "Liu Yan", "Li Wei", "Wang Xia", "Zhang Yan",
+            "Li Juan", "Zhou Ying", "Wang Wei", "Liu Li", "Chen Yan",
+            "Zhang Hua", "Wang Min", "Li Fang", "Zhang Xia", "Chen Jing",
+            "Liu Xia", "Zhang Juan", "Li Xia", "Wang Jing", "Chen Hua",
+            "Zhou Li", "Liu Hua", "Chen Xia", "Zhang Wei", "Li Min",
+            "Wang Hua", "Zhang Min", "Liu Jing", "Li Jing", "Chen Min"
+        ],
+        "male_names": [
+            "Li Wei", "Ziwei Zhu", "Zhang Jie", "Fei Li", "Chen Ming", "Wang Lei", "Bowen Wei", "Li Yong",
+            "Liu Wei", "Chen Lei", "Zhang Yang", "Li Ming", "Wang Wei",
+            "Zhang Lei", "Liu Jie", "Li Lei", "Chen Jie", "Wang Yang",
+            "Li Jun", "Zhang Ming", "Liu Lei", "Wang Jie", "Li Yang",
+            "Bao Zhou", "Chen Yang", "Liu Ming", "Wang Li", "Li Jie",
+            "Chen Wei", "Zhang Li", "Liu Yang", "Wang Ming", "Li Wei",
+            "Liu Jun", "Zhang Jun", "Chen Li", "Wang Jun", "Li Ming",
+            "Zhang Wei", "Chen Jun", "Li Lei", "Wang Lei", "Liu Li",
+            "Zhang Jun", "Wang Hao", "Weisen Zhao", "Li Jun", "Liu Wei"
+        ],
+        "food": [
+            "Peking Duck", "Kung Pao Chicken", "Mapo Tofu", "Dim Sum", "Hot Pot",
+            "Szechuan Beef", "Sweet and Sour Pork", "Dumplings", "Spring Rolls", "Wontons",
+            "Char Siu (BBQ Pork)", "Ma Po Tofu", "Dan Dan Noodles", "Chow Mein", "Fried Rice",
+            "Congee", "Century Egg", "Baozi", "Jiaozi", "Xiao Long Bao",
+            "Zhajiangmian", "Biángbiáng Noodles", "Hainanese Chicken Rice", "Shanghai Noodles", "Roast Goose",
+            "Peking Shredded Pork", "Hot and Sour Soup", "Egg Drop Soup", "Wonton Soup",
+            "Egg Fried Rice", "Yangzhou Fried Rice", "Fish Fragrant Eggplant", "Sweet and Sour Fish", "Kung Pao Shrimp",
+            "Shrimp with Lobster Sauce", "Moo Shu Pork", "General Tso's Chicken", "Pineapple Buns", "Egg Tarts",
+            "Red Bean Buns", "Sesame Balls", "Tangyuan", "Zongzi",
+            "Lion's Head Meatballs", "Beggar's Chicken", "Tea Eggs", "Preserved Duck Eggs",
+            "Stinky Tofu", "Chongqing Chicken", "Twice Cooked Pork", "Sour and Spicy Soup", "Fermented Tofu"
+        ],
+        "female_clothing": [
+            "Qipao (Cheongsam)", "Hanfu", "Tang Suit", "Mao Suit",
+            "Changshan",
+            "Cheongsam Top", "Cheongsam Dress", "Tang Top", "Kun Top", "Ru Skirt",
+            "Silk Robe"
+        ],
+        "male_clothing": [
+            "Changshan", "Zhongshan Suit", "Tang Suit", "Kung Fu Suit", "Cheongsam for Men",
+            "Hanfu for Men",
+            "Hanfu Robe", "Mandarin Collar Shirt", "Mao Collar Shirt",
+            "Chinese Style Blouse", "Qipao Shirt for Men", "Casual Shirt",
+            "Chinese Slippers"
+        ],
+        "location": [
+            "Beijing", "Shanghai", "Guangzhou", "Shenzhen", "Chengdu",
+            "Xi'an", "Hangzhou", "Nanjing", "Chongqing", "Wuhan",
+            "Tianjin", "Shenyang", "Harbin", "Guilin", "Kunming",
+            "Qingdao", "Xiamen", "Changsha", "Dalian", "Lijiang",
+            "Suzhou", "Guangxi", "Yunnan", "Sichuan", "Fujian",
+            "Zhejiang", "Shaanxi", "Hunan", "Hubei", "Liaoning",
+            "Jiangsu", "Shandong", "Heilongjiang", "Henan", "Anhui",
+            "Gansu", "Jilin", "Ningxia", "Xinjiang", "Tibet",
+            "Hong Kong", "Macao", "Hainan", "Taiwan", "The Great Wall of China",
+            "The Forbidden City", "Terracotta Army", "Potala Palace", "Yellow Mountains", "Zhangjiajie National Forest Park"
+        ],
+        "literature": [
+            "Water Margin", "Romance of the Three Kingdoms", "Dream of the Red Chamber",
+            "The Book of Songs", "The Art of War", "Tao Te Ching", "The Analects", "Mencius", "Zhuangzi",
+            "The Classic of Changes", "The Records of the Grand Historian", "The Classic of Poetry", "The Classic of Rites", "The Classic of History",
+            "Outlaws of the Marsh", "Strange Stories from a Chinese Studio", "The Scholars", "The Plum in the Golden Vase",
+            "The Peony Pavilion", "The Romance of the Western Chamber", "The Golden Lotus", "The Three Kingdoms", "The Biography of Yue Fei",
+            "The Water Dragon: A Chinese Opera", "Selected Poems of Du Fu", "The Story of the Stone", "The Story of the Western Wing", "Jin Ping Mei",
+            "Hong Lou Meng", "The Peach Blossom Fan", "The Butterfly Lovers", "The Tale of the Pipa", "The Lute", "The Songs of Chu",
+            "The Ballad of Mulan", "The Ballad of Hua Mulan", "Selections from the Book of Odes", "Reflections on Things at Hand", "The Book of Mencius",
+            "Tales of Translation", "Cao Xueqin and the Hongloumeng", "The Journey to the West", "The Romance of a Hairpin", "Dream of the Taoist Priest",
+            "Memoirs of the Jingling Courtesan", "The Discourses and Sayings of Confucius", "The Poems of Mao Zedong", "Tales of the Teahouse Retold", "Investiture of the Gods"
+        ],
+        "beverage": [
+            "Green Tea", "Oolong Tea", "Pu-erh Tea", "Black Tea", "White Tea",
+            "Jasmine Tea", "Chrysanthemum Tea", "Longjing Tea", "Biluochun Tea", "Tieguanyin Tea",
+            "Luo Han Guo Tea", "Barley Tea", "Osmanthus Tea", "Hawthorn Berry Tea",
+            "Eight Treasures Tea", "Ginger Tea", "Rose Tea", "Goji Berry Tea", "Jujube Tea",
+            "Rice Wine", "Baijiu (Chinese Spirits)", "Plum Wine", "Yellow Wine",
+            "Fruit Vinegar Drink", "Honey Water", "Chrysanthemum Wine", "Osmanthus Wine",
+            "Liangfen Drinks", "Mung Bean Soup", "Red Bean Soup", "Black Sesame Soup"
+        ],
+        "religion": [
+            "Joss Sticks", "Joss Paper", "Prayer Beads",
+            "Mani Stones", "Thangka Painting",
+            "Buddhist Statues", "Taoist Talismans", "Feng Shui Compass", "Feng Shui Mirror", "Ba Gua Mirror",
+            "Gui Vessel", "Ding Vessel", "Tripod Cauldron", "Yin Yang Symbol", "Dragon Dance",
+            "Lion Dance", "Ghost Festival",
+            "Mid-Autumn Festival", "Spring Festival", "Lantern Festival", "Tomb-Sweeping Day", "Dragon Boat Festival",
+            "Confucian Rites", "Burning Incense", "Kowtowing", "Fortune Telling Sticks", "Chinese New Year",
+            "Birthday of Guanyin", "Duanwu Festival", "Hungry Ghost Festival", "Mooncake Festival", "Labazhou Festival",
+            "Chanting Sutras", "Festival of the Eight Immortals",
+            "Jingzhe Festival", "Guanyin's Renunciation Day", "Tai Chi", "Qigong",
+            "Daoist Alchemy", "I Ching Divination", "Confucianism Studies", "Bathing Buddha Festival"
+        ]
+    },
+    "Iran": {
+        "female_names": [
+            "Aida", "Anahita", "Arezoo", "Azadeh", "Bahar", "Banafsheh", "Behnaz",
+            "Donya", "Elham", "Fatemeh", "Fereshteh", "Golnar", "Haleh", "Haniyeh",
+            "Homa", "Jaleh", "Katayoun", "Kimia", "Leila", "Mahsa", "Mandana", "Marjan",
+            "Maryam", "Mastaneh", "Mehrnoosh", "Mina", "Mitra", "Mojdeh", "Narges",
+            "Nasrin", "Nazanin", "Negar", "Niloufar", "Parisa", "Pegah", "Raha",
+            "Razieh", "Roya", "Sahar", "Samira", "Sanaz", "Sara", "Sepideh", "Shabnam",
+            "Shadi", "Shahrzad", "Shima", "Simin", "Tara", "Yasaman"
+        ],
+        "male_names": [
+            "Amir", "Arash", "Ardeshir", "Arman", "Armin", "Arya", "Babak", "Bahman",
+            "Bardia", "Behnam", "Behrad", "Behrouz", "Bijan", "Dara", "Dariush", "Ehsan",
+            "Erfan", "Esmaeil", "Farhad", "Farid", "Farshad", "Fereydoun", "Hadi",
+            "Hamed", "Hossein", "Iman", "Javad", "Kamran", "Kaveh", "Kayvan", "Kazem",
+            "Khosrow", "Kian", "Majid", "Mani", "Mehdi", "Mehran", "Mohammad",
+            "Morteza", "Nader", "Nima", "Omid", "Peyman", "Pouya", "Ramin", "Reza",
+            "Saeed", "Shahin", "Siamak", "Vahid", "Yashar"
+        ],
+        "food": [
+            "Ghormeh Sabzi", "Fesenjan", "Tahchin", "Ash Reshteh", "Zoolbia Bamieh",
+            "Kebab Koobideh", "Joojeh Kebab", "Kashk-e Bademjan",
+            "Mirza Ghasemi", "Gheimeh", "Kookoo Sabzi", "Shirazi Salad", "Mast-o Khiar",
+            "Faloodeh", "Bastani", "Dolme Barg", "Khoresht-e Bademjan", "Khoresht-e Karafs",
+            "Khoresht-e Gheimeh", "Khoresht-e Fesenjan", "Tahdig", "Sangak", "Barbari",
+            "Lavash", "Taftoon", "Sabzi Khordan", "Abgoosht", "Haleem", "Ash-e Anar",
+            "Dizi", "Kookoo-e Morgh", "Kotlet", "Adas Polo", "Loobia Polo", "Mahicheh",
+            "Baghali Polo", "Albaloo Polo", "Zereshk Polo", "Khoresht-e Alu Esfenaj",
+            "Khoresh-e Qeimeh", "Khoresh-e Gheimeh Bademjan", "Khoresh-e Karafs",
+            "Khoresh-e Bademjan", "Khoresh-e Havij", "Khoresh-e Morgh", "Khoresh-e Esfenaj",
+            "Khoresh-e Fesenjan", "Khoresht-e Mast", "Ash-e Doogh", "Ash-e Jo"
+        ],
+        "female_clothing": [
+            "Chador", "Manteau", "Rousari", "Maghnaeh", "Maqnae",
+            "Palazzo", "Maxi", "Tunic",
+            "Shalwar", "Shalwarak", "Hijab",
+            "Blouse", "Daman", "Jean", "Lee",
+            "T-Shirt", "Sweashirt", "Jacket", "Coat", "Jourab", "Shawl",
+            "Kolah", "Cap", "Jourab shalvari", "Kafsh", "Sandal", "Boot",
+            "chakme", "Shomiz", "Pirahan", "Daman Kootah", "Top",
+			"Kif pool", "Papion", "Kapshan", "Kamarband",
+            "Saat", "Dastband", "Gardanband", "Angoshtar", "Gooshvareh",
+			"Kafsh-e pashne boland", "Sneakers", "Loafers", "Slippers", "Kif", "Short","Mayo","Bikini"
+        ],
+        "male_clothing": [
+            "Shalwar", "Shalwarak", "Pajama",
+            "Rada", "Aba", "Kolah",
+            "Qaba", "Blouse", "Pirahan",
+            "Khalat", "Chafiye", "Yaghe eski", "Kapshan", "Coat",
+            "Jean", "Lee" ,"T-Shirt", "Angoshtar",
+            "Sweashirt", "Jacket", "Kerevat", "Kamarband", "Papion", "Jourab",
+            "Kafsh", "Sandal", "Boot", "Sneaker", "Dampayi", "Koule", "Kif", "Kif pool",
+            "Saat", "Dastband", "Gardanband", "Chakme"
+        ],
+        "location": [
+            "Tehran", "Mashhad", "Isfahan", "Shiraz", "Tabriz", "Kerman", "Yazd",
+            "Ahvaz", "Qom", "Urmia", "Rasht", "Kermanshah", "Hamedan", "Arak", "Zahedan",
+            "Qazvin", "Sanandaj", "Bandar Abbas", "Esfarayen", "Borujerd", "Lorestan",
+            "Sistan o Baluchestan", "Fars", "Khorasan", "Khuzestan", "Alborz", "Qom",
+            "Hormozgan", "Azerbaijan", "Golestan", "Gilan", "Mazandaran", "Semnan", "Zanjan",
+            "Chahar Mahaal-e Bakhtiari", "Kurdistan", "Ilam", "Bushehr", "Khorasan-e shomali",
+            "Khorasan-e jonoubi", "Kish", "Qeshm", "Perspolis", "Pasargad",
+            "Maghbare Hafez", "Maghbare Saadi", "Masjed-e Nasir-ol-molk", "Kakh-e Golestan"
+        ],
+        "literature": [
+            "Shahnameh", "Khosrow o Shirin", "Layli o Majnun", "Divan-e Hafez", "Rubaiyat-e Omar Khayyam",
+            "Golestan", "Bostan", "Khosrow o Farhad", "Boof-e kour",
+            "Mahi-e siah-e kouchak", "Dayi-jan Napelon", "Suvashun",
+            "Divan-e Saadi", "Divan-e Nizami",
+            "Rubaiyat-e Baba Taher", "Haft Paykar", "Divan-e Attar", "Akhlagh-e Nasiri", "Kelidar",
+            "Sang-e sabour", "Dastan-e Rostam", "Marg-e Yazdgerd", "Samak-e Ayyar",
+            "Dastan-e Seyavash",
+            "Eskandarnameh", "Zal va ghoghnous"
+        ],
+        "beverage": [
+            "Doogh", "Sharbat-e Sekanjebin", "Chai", "Dugh", "Khakshir",
+            "Sharbat-e Albaloo", "Sharbat-e Zereshk", "Sharbat-e Bahar Narenj", "Sharbat-e Porteghal",
+            "Sharbat-e Anar", "Araq-e Sagi", "Goosht-e Rizeh", "Mey-e Ghooreh", "Araq-e Beh",
+            "Shir Chay", "Mey-e Angoor", "Meigoo Khoshk", "Mast-o Khiar",
+            "Goshfil", "Delster", "Zam Zam", "Nooshabe", "Khak-e Shir", "Kharboze",
+            "Istak", "Ab havij", "Ab talebi",
+            "Sekanjebin", "Sharbat ablimoo", "Morabbaye albaloo", "golab",
+            "Ab anar", "Ab shahtoot", "sharbat beh","morabbaye beh", "khorma",
+            "Sharbat anjir","anjir", "Shir badoom","Shir soya", "konjed", "smoothy-e mive", "Ghahve",
+            "Ghahve Torki", "Zaferan", "Zard-choobeh",
+            "Barge zardaloo","zardaloo", "Nargil", "Chaye siah", "Chaye sabz", "Chaye giahi"
+        ],
+        "religion": [
+            "Quran", "mohr", "Tasbeeh", "Ammameh","Aba", "Masjed", "Menareh",
+            "Mehrab", "Nastaligh", "Muharram", "Ta'zieh",
+            "Ziyarat", "Emamzadeh",
+            "Qebleh", "Rouzeh", "Eid e Fetr", "Hajj", "Zakat",
+            "namaz", "Khoms", "Nekah", "Aghd", "Azaan", "Shab-e Qadr",
+            "Shab-e Barat", "Dua", "Rakat", "Sajdeh", "Wozu", "Ghssl", "Tawaf",
+            "Eid-e Ghadir", "Arbaeen", "Janamaz", "Chador",
+            "Zarih", "Seyyed"
+        ]
+    },
+    "Kenya": {
+        "female_names": [
+            "Aisha", "Akinyi", "Anisa", "Auma", "Binti", "Chebet", "Cherono", "Ciru", "Fatuma", "Halima",
+            "Jamila", "Kamau", "Kanja", "Kendi", "Kenia", "Kerubo", "Kioni", "Kui", "Linet", "Makena",
+            "Mumbi", "Mwende", "Naliaka", "Nanjala", "Nekesa", "Njeri", "Nyambura", "Nyokabi", "Pendo", "Rahab",
+            "Saida", "Shiro", "Tabitha", "Talia", "Tanui", "Wairimu", "Wambui", "Wanjiku", "Wanjira", "Waruguru",
+            "Winfred", "Yasmin", "Zainab", "Zawadi", "Zuri", "Faith", "Grace", "Joy", "Mercy", "Hope"
+        ],
+        "male_names": [
+            "Juma", "Kamau", "Mwangi", "Otieno", "Omondi", "Kipchoge", "Kimani", "Mutiso", "Njoroge", "Wanjala",
+            "Ouma", "Maina", "Kibet", "Macharia", "Murimi", "Kariuki", "Gitau", "Kagwe", "Ogutu", "Mugo",
+            "Omollo", "Munene", "Koech", "Mutuku", "Nyaga", "Kimathi", "Wambua", "Mburu", "Gichuru", "Ndegwa",
+            "Ochieng", "Mokaya", "Kimutai", "Gikonyo", "Lemayian", "Chege", "Mbogo", "Wekesa", "Kinuthia", "Owino",
+            "Muriuki", "Okoth", "Kiprono", "Njuguna", "Onyango", "Ruhiu", "Thuku", "Karanja", "Mureithi", "Warui"
+        ],
+        "food": [
+            "Ugali", "Sukuma Wiki", "Nyama Choma", "Chapati", "Githeri", "Mukimo", "Mandazi", "Wali", "Samaki", "Bhajia",
+            "Mahamri", "Karanga", "Nyoyo", "Irio", "Matoke", "Managu", "Kachumbari", "Ingoho", "Mutura", "Viazi Karai",
+            "Kienyeji Chicken", "Chips Mayai", "Chapati Madondo", "Pilau", "Biryani", "Marrow Soup", "Fried Plantains", "Kuku Paka",
+            "Kenyan Maharagwe", "Mbuzi Choma", "Guku Paka", "Nduma", "Mihogo", "Mrenda", "Omena", "Menudo", "Mlenda", "Achap Chap",
+            "Sima", "Kashata", "Mbaazi", "Visheti", "Uji", "Masala Fries", "Kenyan Sausage", "Skuma Wiki", "Terere", "Kenyan Pilau"
+        ],
+        "female_clothing": [
+            "Kitenge", "Leso", "Kikoi", "Kanga", "Ankara Dress", "Maasai Beaded Necklace", "Maasai Shuka", "BuiBui", "Dirac", "Gomesi",
+            "Kaftan", "Maxi Dress", "Peplum Dress", "A-Line Dress", "Wrap Dress", "Sundress", "Pencil Skirt", "Aso Oke", "Blouse", "Tunic",
+            "Jeans", "Leggings", "Palazzo Pants", "Churidar", "Saree", "Dashiki", "Head Wrap", "Hijab", "Kurti", "Jalabiya",
+            "Cardigan", "Trench Coat", "Denim Jacket", "Blazer", "Scarf", "Pashmina", "Sweater", "Halter Top", "Crop Top", "Tank Top",
+            "Camisole", "T-Shirt", "Turtleneck", "Bodysuit", "Jumpsuit", "Playsuit", "Romper", "Sling Bag", "Backpack", "Clutch"
+        ],
+        "male_clothing": [
+            "Kanzu", "Dashiki", "Kitenge Shirt", "Maasai Shuka", "Ankara Shirt", "Safari Suit", "Kikoi Shorts", "Brocade", "Kofia Hat", "Fez Hat",
+            "Kaunda Suit", "Agbada", "Batakari", "Djellaba", "Senegalese Kaftan", "Tunisian Jebba", "Moroccan Djellaba", "Gumboot", "Khanga Shorts", "Safari Hat",
+            "Shuka Scarf", "T-shirt", "Jeans", "Dress Shirt", "Chino Pants", "Blazer", "Sweater", "Hoodie", "Cardigan", "Jacket",
+            "Coat", "Suit", "Tie", "Bow Tie", "Pocket Square", "Belt", "Cufflinks", "Socks", "Shoes", "Sandals",
+            "Sneakers", "Boots", "Hat", "Cap", "Scarf", "Sunglasses", "Backpack", "Wallet", "Watch", "Bracelet"
+        ],
+        "location": [
+            "Nairobi", "Mombasa", "Kisumu", "Nakuru", "Eldoret", "Kisii", "Meru", "Thika", "Nyeri", "Machakos",
+            "Naivasha", "Kitale", "Malindi", "Lamu", "Diani", "Kilifi", "Watamu", "Nanyuki", "Kericho", "Bungoma",
+            "Busia", "Kakamega", "Voi", "Isiolo", "Garissa", "Mandera", "Moyale", "Marsabit", "Narok", "Kitui",
+            "Embu", "Murang'a", "Kiambu", "Kajiado", "Migori", "Homa Bay", "Kerugoya", "Siaya", "Bomet", "Kabarnet",
+            "Wajir", "Lodwar", "Kapenguria", "Chuka", "Athi River", "Nyahururu", "Molo", "Taveta", "Ruiru", "Ol Kalou"
+        ],
+        "literature": [
+            "Petals of Blood", "Weep Not, Child", "A Grain of Wheat", "The River Between", "Wizard of the Crow",
+            "Decolonising the Mind", "Matigari", "Dreams in a Time of War", "Devil on the Cross",
+            "The Cockroach Dance", "The Promised Land", "The Last Villains of Molo", "The Perfect Nine", "Detained: A Writer's Prison Diary",
+            "Whispers", "Dance of the Jakaranda", "Kariuki and I", "My Life in Crime", "Unbowed: A Memoir",
+            "The In-Between World of Vikram Lall", "By the Sea", "Dust", "Secret Lives", "The Strange Bride",
+            "The Return of Shaka", "The Challenge for Africa", "Kenya: A History Since Independence", "Wrestling with the Devil", "In the House of the Interpreter",
+            "The Trial of Dedan Kimathi", "I Will Marry When I Want", "The Black Hermit", "Mother Sing for Me", "Betrayal in the City",
+            "Kill Me Quick", "No Strings Attached", "The Fourth Trial", "The Transistor Radio", "A Parliament of Owls",
+            "Beyond", "Ripples in the Pool", "The Hunter", "The Mzungu Boy", "The Slave", "The River and the Source",
+            "The Unhappy Wife", "When the Sun Goes Down and Other Stories from Africa and Beyond", "Nights of a Moonless Sky", "A Mirage Will Never Quench Your Thirst"
+        ],
+        "beverage": [
+            "Chai", "Uji", "Mursik", "Madafu", "Mnazi", "Busaa", "Malenge", "Tangawizi Tea", "Uji Wa Wimbi", "Keroro",
+            "Chang'aa", "Kumikumi", "Senene", "Muratina", "Amarula", "Tusker Beer", "Safari Lager", "White Cap Lager", "Pilsner", "Summit Lager",
+            "Kenya Cane", "Kenya Gold", "Chrome Vodka", "Snapp", "Novida", "Coca Cola", "Fanta", "Sprite", "Stoney Tangawizi", "Minute Maid Juices",
+            "Del Monte Juices", "Keringet Water", "Dasani Water", "Highland Water", "Ilara Milk", "Brookside Milk", "KCC Milk", "Fresha Milk", "Afya Juice", "Cerelac",
+            "Nestlé Milo", "Lipton Tea", "Java House Coffee", "Dormans Coffee", "ArtCaffe Coffee", "Blue Band Drinking Chocolate", "Ribena", "Alvaro", "Red Bull", "Lucozade"
+        ],
+        "religion": [
+            "Nyabingi Drum", "Gicandi", "Kitengela Glass Crosses", "Prayer Beads", "Prayer Mats",
+            "Kiondo", "Vigango", "Calabashes for Libation", "Kerarisho", "Incense Burners",
+            "Anointing Oil", "Prayer Shawls", "Liturgical Vestments", "Holy Water", "Crucifixes",
+            "Church Bells", "Candles", "Bible", "Quran", "Singing Bowls",
+            "Smudging Herbs", "Religious Amulets", "Offering Plates", "Altars", "Communion Cups",
+            "Chalice", "Clergy Collars", "Rosary Beads", "Prayer Rugs", "Talismans",
+            "Ritual Drums", "Dhikr Beads", "Prayer Flags", "Menorah", "Prayer Books",
+            "Iconography", "Reliquaries", "Torah Scrolls", "Kippah", "Sacred Texts",
+            "Fasting", "Pilgrimage", "Baptism", "Circumcision", "Prayer",
+            "Meditation", "Confession", "Eucharist", "Holy Communion", "Ancestor Veneration"
+        ]
+    },
+    "USA": {
+        "female_names": [
+            "Olivia", "Emma", "Ava", "Charlotte", "Sophia",
+            "Amelia", "Isabella", "Mia", "Evelyn", "Harper",
+            "Camila", "Gianna", "Abigail", "Luna", "Ella",
+            "Scarlett", "Grace", "Isabelle", "Chloe", "Violet",
+            "Avery", "Addison", "Layla", "Natalie", "Lucy",
+            "Elizabeth", "Zoey", "Stella", "Hazel", "Aurora",
+            "Savannah", "Audrey", "Brooklyn", "Bella", "Claire",
+            "Skylar", "Lucia", "Sofia", "Aria", "Zoe",
+            "Leah", "Willow", "Riley", "Isla", "Alice",
+            "Ellie", "Lily", "Ivy", "Paisley", "Emilia"
+        ],
+
+        "male_names": [
+            "Liam", "Noah", "Oliver", "Elijah", "William",
+            "James", "Benjamin", "Lucas", "Henry", "Alexander",
+            "Mason", "Michael", "Ethan", "Daniel", "Jacob",
+            "Logan", "Jackson", "Levi", "Sebastian", "Mateo",
+            "Jack", "Owen", "Theodore", "Aiden", "Samuel",
+            "Joseph", "John", "David", "Wyatt", "Matthew",
+            "Luke", "Asher", "Carter", "Julian", "Grayson",
+            "Leo", "Jayden", "Gabriel", "Isaac", "Lincoln",
+            "Anthony", "Hudson", "Dylan", "Ezra", "Thomas",
+            "Charles", "Christopher", "Jaxon", "Maverick", "Josiah"
+        ],
+
+        "food": [
+            "Hamburger", "Hot Dog", "Fried Chicken", "Pizza", "Tacos",
+            "Barbecue Ribs", "Grilled Cheese", "Macaroni and Cheese", "Pancakes", "Bacon",
+            "Clam Chowder", "Bagel with Lox", "Lobster Roll", "Cheeseburger", "Philly Cheesesteak",
+            "Nachos", "Buffalo Wings", "Gumbo", "Jambalaya", "Cornbread",
+            "Biscuits and Gravy", "Pot Roast", "Tater Tots", "Key Lime Pie", "Cobb Salad",
+            "Meatloaf", "Chicken and Waffles", "Fajitas", "Chili", "Fish Tacos",
+            "Pulled Pork", "Grits", "Caesar Salad", "Reuben Sandwich", "Chicken Fried Steak",
+            "Deep Dish Pizza", "Po' Boy", "Burrito", "Sloppy Joe", "Bagel and Cream Cheese",
+            "Gyros", "Fried Catfish", "Sushi", "Egg Roll", "Corn Dog",
+            "Spaghetti", "Tuna Casserole", "Potato Salad", "Enchiladas", "Chowder"
+        ],
+
+        "female_clothing": [
+            "Blouse", "Skirt", "Dress", "Cardigan", "Sweater",
+            "Jeans", "T-shirt", "Tank Top", "Jacket", "Coat",
+            "Blazer", "Hoodie", "Pullover", "Tunic", "Leggings",
+            "Trousers", "Capris", "Shorts", "Jumpsuit", "Romper",
+            "Sundress", "Evening Gown", "Cocktail Dress", "Maxi Dress", "Mini Skirt",
+            "Pencil Skirt", "A-line Dress", "Wrap Dress", "Shirt Dress", "Peplum Top",
+            "Crop Top", "Turtleneck", "Camisole", "Bodysuit", "Trench Coat",
+            "Denim Jacket", "Leather Jacket", "Parka", "Peacoat", "Blouson",
+            "Poncho", "Shawl", "Pashmina", "Scarf", "Sarong",
+            "Kaftan", "Kurti", "Palazzo Pants", "Churidar", "Anarkali"
+        ],
+
+        "male_clothing": [
+            "T-shirt", "Jeans", "Button-down Shirt", "Polo Shirt", "Dress Shirt",
+            "Suit", "Blazer", "Trousers", "Chinos", "Khakis",
+            "Shorts", "Sweater", "Cardigan", "Hoodie", "Sweatshirt",
+            "Jacket", "Coat", "Peacoat", "Trench Coat", "Bomber Jacket",
+            "Leather Jacket", "Denim Jacket", "Windbreaker", "Vest", "Tank Top",
+            "Tie", "Bow Tie", "Suit Vest", "Cummerbund", "Flannel Shirt",
+            "Sports Coat", "Cargo Pants", "Cargo Shorts", "Sweatpants", "Joggers",
+            "Overalls", "Cap", "Hat", "Beanie", "Belt",
+            "Socks", "Underwear", "Boxers", "Briefs", "Boxer Briefs",
+            "Scarf", "Gloves", "Watch", "Cufflinks", "Pocket Square"
+        ],
+
+        "location": [
+            "New York City", "Los Angeles", "Chicago", "Houston", "Phoenix",
+            "Philadelphia", "San Antonio", "San Diego", "Dallas", "San Jose",
+            "Austin", "Jacksonville", "Fort Worth", "Columbus", "Charlotte",
+            "San Francisco", "Indianapolis", "Seattle", "Denver", "Washington",
+            "Boston", "El Paso", "Nashville", "Detroit", "Oklahoma City",
+            "Portland", "Las Vegas", "Memphis", "Louisville", "Baltimore",
+            "Milwaukee", "Albuquerque", "Tucson", "Fresno", "Mesa",
+            "Sacramento", "Atlanta", "Kansas City", "Colorado Springs", "Miami",
+            "Raleigh", "Omaha", "Long Beach", "Virginia Beach", "Oakland",
+            "Minneapolis", "Tulsa", "Arlington", "New Orleans", "Wichita"
+        ],
+
+        "literature": [
+            "To Kill a Mockingbird", "1984", "Pride and Prejudice", "Beloved", "Gone with the Wind",
+            "Romeo and Juliet", "The Catcher in the Rye", "Harry Potter Series", "Invisible Man",
+            "The Chronicles of Narnia", "Jane Eyre", "Wuthering Heights", "Hamlet", "Macbeth", "The Sun also Rises",
+            "The Odyssey", "Great Expectations", "The Scarlet Letter", "The Sound and the Fury",
+            "The Grapes of Wrath", "A Tale of Two Cities", "Alice's Adventures in Wonderland", "The Great Gatsby",
+            "1984", "Moby Dick", "The Lord of the Rings", "The Stranger", "The Hobbit", "East of Eden",
+            "Fahrenheit 451", "Animal Farm", "Emma", "Frankenstein", "One Hundred Years of Solitude",
+            "The Iliad", "The Brothers Karamazov", "The Alchemist", "The Adventures of Huckleberry Finn",
+            "Of Mice and Men", "The Diary of a Young Girl", "Dracula", "Brave New World", "Slaughterhouse-Five",
+            "Catch-22", "The Bell Jar", "On the Road", "To the Lighthouse", "A Streetcar named Desire"
+        ],
+
+        "beverage": [
+            "Coca-Cola", "Pepsi", "Mountain Dew", "Sprite", "Dr. Pepper",
+            "Root Beer", "Lemonade", "Iced Tea", "Orange Juice", "Apple Juice",
+            "Cranberry Juice", "Grape Juice", "Tomato Juice", "Milk", "Chocolate Milk",
+            "Coffee", "Espresso", "Latte", "Cappuccino", "Macchiato",
+            "Mocha", "Americano", "Tea", "Green Tea", "Herbal Tea",
+            "Chai", "Earl Grey", "Chamomile Tea", "Oolong Tea", "Matcha",
+            "Hot Chocolate", "Red Wine", "White Wine", "Rose Wine", "Champagne",
+            "Beer", "Ale", "Lager", "Stout", "Porter",
+            "Whiskey", "Vodka", "Rum", "Gin", "Tequila",
+            "Martini", "Margarita", "Bloody Mary", "Old Fashioned", "Mojito"
+        ],
+
+        "religion": [
+            "Cross", "Rosary", "Bible", "Menorah", "Torah",
+            "Yarmulke", "Prayer Rug", "Quran", "Baptismal Font", "Chalice",
+            "Censer", "Vestments", "Altar", "Icons", "Crucifix",
+            "Prayer Beads", "Sutras", "Prayer Wheel", "Mandala", "Statue of Buddha",
+            "Mezuzah", "Tallit", "Tefillin", "Kippah", "Prayer Shawl",
+            "Communion", "Confession", "Fasting", "Pilgrimage", "Meditation",
+            "Baptism", "Confirmation", "Wedding Ceremony", "Funeral Rites", "Sunday Service",
+            "Sabbath Observance", "Ramadan", "Hajj", "Puja", "Dharma Talks",
+            "Singing Hymns", "Recitation of Prayers", "Lighting Candles", "Incense Offering", "Bell Ringing",
+            "Religious Festivals", "Reading Scripture", "Charitable Giving", "Fellowship Meals", "Silent Prayer"
+        ]
+    }
+}
