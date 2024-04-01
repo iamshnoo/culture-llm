@@ -110,6 +110,7 @@ def format_prompt(instruction, input="", output="", lang="english"):
             {"instruction": instruction, "input": input, "output": output}
         )
 
+
 parser = argparse.ArgumentParser()
 parser = argparse.ArgumentParser()
 parser.add_argument(
@@ -141,7 +142,13 @@ MASK_TO_BLANK = True
 POST_PROMPT = " Fill in the [BLANK]."
 
 dataset = load_data(PROMPTS_PATH, TARGETS_PATH)
-dataset = transform_df(dataset, df_type=TYPE, pre_prompt_template=PRE_PROMPT, replace_mask=MASK_TO_BLANK, post_template=POST_PROMPT)
+dataset = transform_df(
+    dataset,
+    df_type=TYPE,
+    pre_prompt_template=PRE_PROMPT,
+    replace_mask=MASK_TO_BLANK,
+    post_template=POST_PROMPT,
+)
 
 MODEL_CACHE_DIR = f"/projects/{MODEL_NAME}/{LLAMA_SIZE}b"
 
@@ -189,7 +196,18 @@ else:
     )
 
 
-df = pd.DataFrame(columns=['country', 'category', 'prompt', 'correct', 'incorrect', 'options', 'response', 'probabilities'])
+df = pd.DataFrame(
+    columns=[
+        "country",
+        "category",
+        "prompt",
+        "correct",
+        "incorrect",
+        "options",
+        "response",
+        "probabilities",
+    ]
+)
 
 for idx, row in tqdm(dataset.iterrows(), total=len(dataset)):
     question = row["prompt"]
@@ -230,9 +248,7 @@ for idx, row in tqdm(dataset.iterrows(), total=len(dataset)):
         batch_size=1,
     )
     pred_probs_rounded = pred_probs.round(2)
-    pred_probs_rounded = dict(
-        zip(split_options, pred_probs_rounded)
-    )
+    pred_probs_rounded = dict(zip(split_options, pred_probs_rounded))
     pred_probs_rounded = {
         k: v
         for k, v in sorted(
@@ -268,7 +284,9 @@ for idx, row in tqdm(dataset.iterrows(), total=len(dataset)):
     print("Model Answer: ", answer)
     print("-" * 80)
 
-PATH = f"../outputs/camel/{TYPE}/{LANG}_results_{MODEL_NAME}_{LLAMA_SIZE}b_type_{TYPE}.csv"
+PATH = (
+    f"../outputs/camel/{TYPE}/{LANG}_results_{MODEL_NAME}_{LLAMA_SIZE}b_type_{TYPE}.csv"
+)
 print(f"Experiment completed. Saving results to {PATH}")
 df.to_csv(PATH, index=False)
 gc.collect()

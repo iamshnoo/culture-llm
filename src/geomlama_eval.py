@@ -7,23 +7,26 @@ COUNTRIES = ["US", "China", "India", "Iran", "Kenya", "Greece"]
 LANGS = ["english", "chinese", "hindi", "persian", "swahili", "greek"]
 LLAMA_SIZES = ["6", "7", "13", "34", "70"]
 
+
 def eval_country(filename):
     scores = {country: 0 for country in COUNTRIES}
 
-    df = pd.read_csv(filename) # 150 rows
+    df = pd.read_csv(filename)  # 150 rows
     filename_no_country = filename.replace("country", "no_country")
-    df_no_country = pd.read_csv(filename_no_country) # 25 rows
+    df_no_country = pd.read_csv(filename_no_country)  # 25 rows
 
     # Split the correct answers by comma and remove whitespace
     df["correct_answer"] = df["correct_answer"].apply(lambda x: x.split(","))
-    df["correct_answer"] = df["correct_answer"].apply(lambda x: [ans.strip() for ans in x])
+    df["correct_answer"] = df["correct_answer"].apply(
+        lambda x: [ans.strip() for ans in x]
+    )
     # add a country column to the dataframe
     df["country"] = COUNTRIES * 25
 
     for country in COUNTRIES:
         country_df = df[df["country"] == country]
-        country_c = 0 # corrects
-        country_g = 0 # golds
+        country_c = 0  # corrects
+        country_g = 0  # golds
         for idx, row in country_df.iterrows():
             idx_no_country = idx // 6
             row_no_country = df_no_country.iloc[idx_no_country]
@@ -42,7 +45,7 @@ def eval_country(filename):
             # Case 2: if len(correct_answer) > 1, then extract probabilities[:len(correct_answer)]
             else:
                 # extract the top len(correct_answer) probabilities
-                top_probs = list(probabilities.keys())[:len(correct_answer)]
+                top_probs = list(probabilities.keys())[: len(correct_answer)]
                 # check if the top probabilities are in the correct answers
                 for ans in top_probs:
                     if ans in correct_answer:
@@ -54,14 +57,15 @@ def eval_country(filename):
         scores[country] = country_score
     return scores
 
+
 def eval_no_country(filename):
     scores = {country: 0 for country in COUNTRIES}
 
-    df = pd.read_csv(filename) # 25 rows
+    df = pd.read_csv(filename)  # 25 rows
     # create an empty column for the correct answer
     # df["correct_answer"] = np.nan
     filename_country = filename.replace("no_country", "country")
-    df_country = pd.read_csv(filename_country) # 150 rows
+    df_country = pd.read_csv(filename_country)  # 150 rows
     df_country["country"] = COUNTRIES * 25
 
     # the correct answer would depend on the country chosen
@@ -73,10 +77,12 @@ def eval_no_country(filename):
 
         # Split the correct answers by comma and remove whitespace
         df["correct_answer"] = df["correct_answer"].apply(lambda x: x.split(","))
-        df["correct_answer"] = df["correct_answer"].apply(lambda x: [ans.strip() for ans in x])
+        df["correct_answer"] = df["correct_answer"].apply(
+            lambda x: [ans.strip() for ans in x]
+        )
 
-        country_c = 0 # corrects
-        country_g = 0 # golds
+        country_c = 0  # corrects
+        country_g = 0  # golds
 
         for idx, row in df.iterrows():
             correct_answer = row["correct_answer"]
@@ -89,7 +95,7 @@ def eval_no_country(filename):
             # Case 2: if len(correct_answer) > 1, then extract probabilities[:len(correct_answer)]
             else:
                 # extract the top len(correct_answer) probabilities
-                top_probs = list(probabilities.keys())[:len(correct_answer)]
+                top_probs = list(probabilities.keys())[: len(correct_answer)]
                 # check if the top probabilities are in the correct answers
                 for ans in top_probs:
                     if ans in correct_answer:
@@ -102,11 +108,13 @@ def eval_no_country(filename):
 
     return scores
 
+
 def filter_df(df, filters):
     # apply consecutive filters to the dataframe
     for key, value in filters.items():
         df = df[df[key] == value]
     return df
+
 
 def extract(key, component, options):
     # key is a str
@@ -141,18 +149,23 @@ def extract(key, component, options):
         if option in key:
             return option
 
+
 if __name__ == "__main__":
     with open("geomlama_configs.json") as f:
         all_combinations = json.load(f)
 
     results = {}
-    for exp_id, args in tqdm(all_combinations.items(), total=len(all_combinations), desc="Experiment"):
+    for exp_id, args in tqdm(
+        all_combinations.items(), total=len(all_combinations), desc="Experiment"
+    ):
         MODEL_NAME = args[0]
         LLAMA_SIZE = args[1]
         LANG = args[2]
         MODE = args[3]
         key = f"{LANG}_{LLAMA_SIZE}_{MODE}_{MODEL_NAME}"
-        filename = f"../outputs/geomlama/{MODE}/{LANG}_results_{MODEL_NAME}_{LLAMA_SIZE}b.csv"
+        filename = (
+            f"../outputs/geomlama/{MODE}/{LANG}_results_{MODEL_NAME}_{LLAMA_SIZE}b.csv"
+        )
         if MODE == "country":
             scores = eval_country(filename)
             results[key] = scores
@@ -165,22 +178,93 @@ if __name__ == "__main__":
     df = df.rename_axis("key").reset_index()
 
     for i, row in df.iterrows():
-        df.at[i, 'lang'] = extract(row["key"], "lang", LANGS)
-        df.at[i, 'llama_size'] = extract(row["key"], "llama_size", LLAMA_SIZES)
-        df.at[i, 'mode'] = extract(row["key"], "mode", ["country", "no_country"])
-        df.at[i, 'model_name'] = extract(row["key"], "model_name", ["alpaca-2", "yi", "uliza", "uliza-alt"])
+        df.at[i, "lang"] = extract(row["key"], "lang", LANGS)
+        df.at[i, "llama_size"] = extract(row["key"], "llama_size", LLAMA_SIZES)
+        df.at[i, "mode"] = extract(row["key"], "mode", ["country", "no_country"])
+        df.at[i, "model_name"] = extract(
+            row["key"], "model_name", ["alpaca-2", "yi", "uliza", "uliza-alt"]
+        )
 
-    df_alpaca_2_country = pd.concat([group for _, group in filter_df(df, {"mode": "country", "model_name": "alpaca-2"}).groupby("lang")])
-    df_alpaca_2_no_country = pd.concat([group for _, group in filter_df(df, {"mode": "no_country", "model_name": "alpaca-2"}).groupby("lang")])
-    df_yi_country = pd.concat([group for _, group in filter_df(df, {"mode": "country", "model_name": "yi"}).groupby("lang")])
-    df_yi_no_country = pd.concat([group for _, group in filter_df(df, {"mode": "no_country", "model_name": "yi"}).groupby("lang")])
-    df_uliza_country = pd.concat([group for _, group in filter_df(df, {"mode": "country", "model_name": "uliza"}).groupby("lang")])
-    df_uliza_no_country = pd.concat([group for _, group in filter_df(df, {"mode": "no_country", "model_name": "uliza"}).groupby("lang")])
-    df_uliza_alt_country = pd.concat([group for _, group in filter_df(df, {"mode": "country", "model_name": "uliza-alt"}).groupby("lang")])
-    df_uliza_alt_no_country = pd.concat([group for _, group in filter_df(df, {"mode": "no_country", "model_name": "uliza-alt"}).groupby("lang")])
-    df_swahili_country = pd.concat([group for _, group in filter_df(df, {"mode": "country", "lang": "swahili"}).groupby("model_name")])
-    df_chinese_country = pd.concat([group for _, group in filter_df(df, {"mode": "country", "lang": "chinese"}).groupby("model_name")])
-
+    df_alpaca_2_country = pd.concat(
+        [
+            group
+            for _, group in filter_df(
+                df, {"mode": "country", "model_name": "alpaca-2"}
+            ).groupby("lang")
+        ]
+    )
+    df_alpaca_2_no_country = pd.concat(
+        [
+            group
+            for _, group in filter_df(
+                df, {"mode": "no_country", "model_name": "alpaca-2"}
+            ).groupby("lang")
+        ]
+    )
+    df_yi_country = pd.concat(
+        [
+            group
+            for _, group in filter_df(
+                df, {"mode": "country", "model_name": "yi"}
+            ).groupby("lang")
+        ]
+    )
+    df_yi_no_country = pd.concat(
+        [
+            group
+            for _, group in filter_df(
+                df, {"mode": "no_country", "model_name": "yi"}
+            ).groupby("lang")
+        ]
+    )
+    df_uliza_country = pd.concat(
+        [
+            group
+            for _, group in filter_df(
+                df, {"mode": "country", "model_name": "uliza"}
+            ).groupby("lang")
+        ]
+    )
+    df_uliza_no_country = pd.concat(
+        [
+            group
+            for _, group in filter_df(
+                df, {"mode": "no_country", "model_name": "uliza"}
+            ).groupby("lang")
+        ]
+    )
+    df_uliza_alt_country = pd.concat(
+        [
+            group
+            for _, group in filter_df(
+                df, {"mode": "country", "model_name": "uliza-alt"}
+            ).groupby("lang")
+        ]
+    )
+    df_uliza_alt_no_country = pd.concat(
+        [
+            group
+            for _, group in filter_df(
+                df, {"mode": "no_country", "model_name": "uliza-alt"}
+            ).groupby("lang")
+        ]
+    )
+    df_swahili_country = pd.concat(
+        [
+            group
+            for _, group in filter_df(
+                df, {"mode": "country", "lang": "swahili"}
+            ).groupby("model_name")
+        ]
+    )
+    df_chinese_country = pd.concat(
+        [
+            group
+            for _, group in filter_df(
+                df, {"mode": "country", "lang": "chinese"}
+            ).groupby("model_name")
+        ]
+    )
 
     export_path = f"../outputs/geomlama/evals"
     df.to_csv(f"{export_path}/all_results.csv", index=False)
@@ -192,7 +276,9 @@ if __name__ == "__main__":
     df_uliza_country.to_csv(f"{export_path}/uliza_country.csv", index=False)
     df_uliza_no_country.to_csv(f"{export_path}/uliza_no_country.csv", index=False)
     df_uliza_alt_country.to_csv(f"{export_path}/uliza_alt_country.csv", index=False)
-    df_uliza_alt_no_country.to_csv(f"{export_path}/uliza_alt_no_country.csv", index=False)
+    df_uliza_alt_no_country.to_csv(
+        f"{export_path}/uliza_alt_no_country.csv", index=False
+    )
     df_swahili_country.to_csv(f"{export_path}/swahili_country.csv", index=False)
     df_chinese_country.to_csv(f"{export_path}/chinese_country.csv", index=False)
 

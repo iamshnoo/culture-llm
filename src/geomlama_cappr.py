@@ -124,7 +124,9 @@ def format_prompt(instruction, input="", output="", lang="english"):
 with open("geomlama_configs.json") as f:
     all_combinations = json.load(f)
 
-for exp_id, args in tqdm(all_combinations.items(), total=len(all_combinations), desc="Experiment"):
+for exp_id, args in tqdm(
+    all_combinations.items(), total=len(all_combinations), desc="Experiment"
+):
     MODEL_NAME = args[0]
     LLAMA_SIZE = args[1]
     LANG = args[2]
@@ -231,9 +233,7 @@ for exp_id, args in tqdm(all_combinations.items(), total=len(all_combinations), 
             batch_size=1,
         )
         pred_probs_rounded = pred_probs.round(2)
-        pred_probs_rounded = dict(
-            zip(split_options, pred_probs_rounded)
-        )
+        pred_probs_rounded = dict(zip(split_options, pred_probs_rounded))
         pred_probs_rounded = {
             k: v
             for k, v in sorted(

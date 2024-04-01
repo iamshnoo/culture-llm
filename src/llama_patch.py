@@ -9,8 +9,7 @@ from transformers.models.llama.modeling_llama import apply_rotary_pos_emb
 
 try:
     from flash_attn.bert_padding import pad_input, unpad_input
-    from flash_attn.flash_attn_interface import \
-        flash_attn_varlen_qkvpacked_func
+    from flash_attn.flash_attn_interface import flash_attn_varlen_qkvpacked_func
 except Exception:
     raise ModuleNotFoundError(
         "Please install FlashAttention first, e.g., with pip install flash-attn --no-build-isolation, Learn more at https://github.com/Dao-AILab/flash-attention#installation-and-features"

@@ -1,6 +1,6 @@
 # Global Gallery: The Fine Art of Painting Culture Portraits through Multilingual Instruction Tuning
 
-This repository contains anonymized code for our submission to NAACL 2024.
+This repository contains code for our paper accepted to NAACL 2024 (Main conference).
 
 ## Requirements - External libraries
 
@@ -26,6 +26,11 @@ The code is contained in the ```src``` directory.
 - ``camel_prep.py`` is used to prepare the CAMeL dataset for instruction tuning for each of the 5 settings.
 - ``camel_cappr.py`` solves the different MCQ settings of the CAMeL dataset.
 - ``camel_eval.py`` is used to evaluate the results of the CAMeL dataset.
+- ``process_text.py`` contains utility functions for determining whether a text is translatable (does not contain code and is not an empty string.)
+- ``translations.py`` contains code for translating the Alpaca dataset to different languages using NLLB.
+- ``quality_estimation.py`` contains code for reference-free estimation of the
+  quality of translations using CometKiwi. First execute ``qe_data_prep.py`` to
+  prepare the ``qe.json`` file needed for measuring the quality of translations.
 
 ## Results
 
@@ -40,6 +45,7 @@ The main structure of the repository is as follows :
 .
 ├── README.md
 ├── data
+│   ├── qe.json
 │   ├── camel
 │   │   ├── prompts.json
 │   │   └── targets.json
@@ -95,6 +101,10 @@ The main structure of the repository is as follows :
     ├── geomlama_eval.py
     ├── llama_patch.py
     ├── no_country_prompts.py
+    ├── process_text.py
+    ├── qe_data_prep.py
+    ├── quality_estimation.py
+    ├── translations.py
     └── plots
         ├── rq3_1.py
         └── rq3_2.py
