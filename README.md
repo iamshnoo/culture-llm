@@ -1,5 +1,9 @@
 # Global Gallery: The Fine Art of Painting Culture Portraits through Multilingual Instruction Tuning
 
+[Anjishnu Mukherjee](https://iamshnoo.github.io/), Aylin Caliskan, Ziwei Zhu, Antonios Anastasopoulos · NAACL ’24 (Poster)
+
+[Paper](https://aclanthology.org/2024.naacl-long.355.pdf) · [Research overview and publications](https://iamshnoo.github.io/#global-gallery)
+
 This repository contains code for our paper accepted to NAACL 2024 (Main conference).
 
 ## Requirements - External libraries
