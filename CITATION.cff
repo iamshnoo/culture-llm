@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+type: software
+title: "Global Gallery: The Fine Art of Painting Culture Portraits through Multilingual Instruction Tuning"
+authors:
+  - family-names: "Mukherjee"
+    given-names: "Anjishnu"
+    orcid: "https://orcid.org/0000-0003-4012-8466"
+  - family-names: "Caliskan"
+    given-names: "Aylin"
+  - family-names: "Zhu"
+    given-names: "Ziwei"
+  - family-names: "Anastasopoulos"
+    given-names: "Antonios"
+repository-code: "https://github.com/iamshnoo/culture-llm"
+url: "https://iamshnoo.github.io/global_gallery/"
+preferred-citation:
+  type: conference-paper
+  title: "Global Gallery: The Fine Art of Painting Culture Portraits through Multilingual Instruction Tuning"
+  authors:
+    - family-names: "Mukherjee"
+      given-names: "Anjishnu"
+      orcid: "https://orcid.org/0000-0003-4012-8466"
+    - family-names: "Caliskan"
+      given-names: "Aylin"
+    - family-names: "Zhu"
+      given-names: "Ziwei"
+    - family-names: "Anastasopoulos"
+      given-names: "Antonios"
+  collection-title: "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)"
+  collection-type: proceedings
+  conference:
+    name: "2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+  year: 2024
+  month: 6
+  start: 6398
+  end: 6415
+  publisher:
+    name: "Association for Computational Linguistics"
+  doi: "10.18653/v1/2024.naacl-long.355"
+  url: "https://aclanthology.org/2024.naacl-long.355/"

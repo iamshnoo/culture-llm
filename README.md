@@ -2,7 +2,7 @@
 
 [Anjishnu Mukherjee](https://iamshnoo.github.io/), Aylin Caliskan, Ziwei Zhu, Antonios Anastasopoulos · NAACL ’24 (Poster)
 
-[Paper](https://aclanthology.org/2024.naacl-long.355.pdf) · [Research overview and publications](https://iamshnoo.github.io/#global-gallery)
+[Paper](https://aclanthology.org/2024.naacl-long.355/) · [Project page](https://iamshnoo.github.io/global_gallery/) · [GeoMLaMA QA on Hugging Face](https://huggingface.co/datasets/iamshnoo/geomlama) · [Research overview and publications](https://iamshnoo.github.io/#global-gallery)
 
 This repository contains code for our paper accepted to NAACL 2024 (Main conference).
 
@@ -112,4 +112,27 @@ The main structure of the repository is as follows :
     └── plots
         ├── rq3_1.py
         └── rq3_2.py
+```
+
+## Citation
+
+```bibtex
+@inproceedings{mukherjee-etal-2024-global,
+    title = "Global Gallery: The Fine Art of Painting Culture Portraits through Multilingual Instruction Tuning",
+    author = "Mukherjee, Anjishnu  and
+      Caliskan, Aylin  and
+      Zhu, Ziwei  and
+      Anastasopoulos, Antonios",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the {N}orth {A}merican Chapter of the {A}ssociation for {C}omputational {L}inguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.355/",
+    doi = "10.18653/v1/2024.naacl-long.355",
+    pages = "6398--6415"
+}
 ```
